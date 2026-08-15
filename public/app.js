@@ -711,16 +711,22 @@ function renderMolds() {
         .map(
           (item) => `
             <div class="material-image-line">
-              ${
-                item.image
-                  ? `<div class="material-image-actions">
-                      <button class="mold-image-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" aria-label="查看或替换图片"><img class="mold-thumb" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.materialNo)} 图片" /></button>
-                      <button class="icon-button danger image-delete-button" data-delete-item-image-mold="${escapeAttr(mold.id)}" data-delete-item-image-no="${escapeAttr(item.materialNo)}" aria-label="删除图片">
-                        <i data-lucide="trash-2"></i>
-                      </button>
-                    </div>`
-                  : `<button class="button button-secondary button-small" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}"><i data-lucide="image-plus"></i><span>上传</span></button>`
-              }
+              <div class="material-image-actions">
+                ${
+                  item.image
+                    ? `<button class="mold-image-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" aria-label="查看或替换图片"><img class="mold-thumb" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.materialNo)} 图片" /></button>`
+                    : `<button class="icon-button image-upload-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" title="上传图片" aria-label="上传图片"><i data-lucide="image-plus"></i></button>`
+                }
+                <button class="icon-button danger image-delete-button ${
+                  item.image ? '' : 'disabled'
+                }" ${
+                  item.image
+                    ? `data-delete-item-image-mold="${escapeAttr(mold.id)}" data-delete-item-image-no="${escapeAttr(item.materialNo)}" aria-label="删除图片"`
+                    : 'disabled title="暂无图片" aria-label="暂无图片"'
+                }>
+                  <i data-lucide="trash-2"></i>
+                </button>
+              </div>
             </div>
           `,
         )
