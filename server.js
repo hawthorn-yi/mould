@@ -3,6 +3,14 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
+if (typeof process.loadEnvFile === 'function') {
+  try {
+    process.loadEnvFile(path.join(__dirname, '.env'));
+  } catch {
+    // .env is optional; process environment variables still take precedence.
+  }
+}
+
 const PORT = Number(process.env.PORT || 3000);
 const HOST = process.env.HOST || '127.0.0.1';
 const PUBLIC_DIR = path.join(__dirname, 'public');
