@@ -8,6 +8,11 @@ const HOST = process.env.HOST || '127.0.0.1';
 const PUBLIC_DIR = path.join(__dirname, 'public');
 const DATA_DIR = path.join(__dirname, 'data');
 const DATA_FILE = path.join(DATA_DIR, 'db.json');
+const SUPABASE_URL = process.env.SUPABASE_URL || '';
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || '';
+const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
+const SUPABASE_KEY = SUPABASE_SERVICE_ROLE_KEY || SUPABASE_ANON_KEY;
+const USE_SUPABASE = Boolean(SUPABASE_URL && SUPABASE_KEY);
 
 const defaultData = {
   suppliers: [
@@ -64,7 +69,45 @@ async function ensureData() {
   }
 }
 
+async function supabaseRequest(pathname, options = {}) {
+  const headers = {
+    apikey: SUPABASE_KEY,
+    Authorization: `Bearer ${SUPABASE_KEY}`,
+    ...(options.headers || {}),
+  };
+  const url = `${SUPABASE_URL.replace(/\/+$/, '')}/rest/v1/${pathname}`;
+  const response = await fetch(url, {
+    ...options,
+    headers,
+  });
+  const text = await response.text();
+  let data = null;
+  if (text) {
+    try {
+      data = JSON.parse(text);
+    } catch {
+      data = text;
+    }
+  }
+  if (!response.ok) {
+    const message =
+      typeof data === 'object' && data?.message
+        ? data.message
+        : `Supabase request failed (${response.status})`;
+    throw new Error(message);
+  }
+  return data;
+}
+
 async function readData() {
+  if (USE_SUPABASE) {
+    const rows = await supabaseRequest('app_state?id=eq.main&select=data');
+    const row = Array.isArray(rows) ? rows[0] : null;
+    if (row?.data) {
+      return row.data;
+    }
+    return JSON.parse(JSON.stringify(defaultData));
+  }
   await ensureData();
   const raw = await fs.promises.readFile(DATA_FILE, 'utf8');
   try {
@@ -75,6 +118,21 @@ async function readData() {
 }
 
 async function writeData(data) {
+  if (USE_SUPABASE) {
+    await supabaseRequest('app_state?on_conflict=id', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Prefer: 'resolution=merge-duplicates,return=minimal',
+      },
+      body: JSON.stringify({
+        id: 'main',
+        data,
+        updated_at: new Date().toISOString(),
+      }),
+    });
+    return;
+  }
   await ensureData();
   await fs.promises.writeFile(DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
