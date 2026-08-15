@@ -536,8 +536,8 @@ function openImageModal(src, title) {
 
 async function uploadMoldImage(file) {
   if (!file) return;
-  if (file.size > 3 * 1024 * 1024) {
-    showToast('图片不能超过 3MB', 'error');
+  if (file.size > 10 * 1024 * 1024) {
+    showToast('图片不能超过 10MB', 'error');
     return;
   }
   const moldId = $('#imageInput').dataset.moldId;
@@ -547,6 +547,7 @@ async function uploadMoldImage(file) {
     showToast('没有找到对应模具，请刷新后重试', 'error');
     return;
   }
+  const compressedFile = await compressImageFile(file);
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
     reader.onload = async () => {
@@ -579,8 +580,37 @@ async function uploadMoldImage(file) {
       showToast('图片读取失败', 'error');
       reject(new Error('图片读取失败'));
     };
-    reader.readAsDataURL(file);
+    reader.readAsDataURL(compressedFile);
   });
+}
+
+async function compressImageFile(file, maxSize = 1400, quality = 0.82) {
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, maxSize / Math.max(bitmap.width, bitmap.height));
+    const width = Math.max(1, Math.round(bitmap.width * scale));
+    const height = Math.max(1, Math.round(bitmap.height * scale));
+    const canvas = document.createElement('canvas');
+    canvas.width = width;
+    canvas.height = height;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(bitmap, 0, 0, width, height);
+    const blob = await new Promise((resolve, reject) => {
+      canvas.toBlob(
+        (result) => {
+          if (result) resolve(result);
+          else reject(new Error('图片压缩失败'));
+        },
+        'image/jpeg',
+        quality,
+      );
+    });
+    return new File([blob], `${file.name.replace(/\.[^.]+$/, '')}.jpg`, {
+      type: 'image/jpeg',
+    });
+  } catch {
+    return file;
+  }
 }
 
 async function loadState() {
