@@ -1,0 +1,11 @@
+{
+  "name": "mould-design",
+  "version": "1.0.0",
+  "description": "模具信息与采购订单配套校验系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "private": true
+}
