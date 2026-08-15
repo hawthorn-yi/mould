@@ -384,6 +384,10 @@ textarea:focus {
   background: #fbfcfe;
 }
 
+#view-molds .data-table tbody tr:not(:last-child) > td {
+  border-bottom: 1px solid #9aa1a8;
+}
+
 .actions-col {
   width: 110px;
   text-align: right !important;
