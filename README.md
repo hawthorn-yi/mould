@@ -10,6 +10,12 @@ node server.js
 
 浏览器打开 `http://127.0.0.1:3000`。
 
+## 协同访问
+
+公网地址：[https://hawthorn-yi.github.io/mould/](https://hawthorn-yi.github.io/mould/)
+
+前端已支持静态直连 Supabase，其他人打开公网地址即可协同使用。
+
 ## 数据文件
 
 - 数据保存在 `data/db.json`。
