@@ -798,6 +798,21 @@ function renderMolds() {
     });
   });
   refreshIcons(body);
+  alignMaterialImageRows();
+}
+
+function alignMaterialImageRows() {
+  $$('#moldTableBody tr').forEach((tr) => {
+    const detailRows = $$('.material-detail-row', tr);
+    const imageLines = $$('.material-image-line', tr);
+    imageLines.forEach((line, index) => {
+      const detail = detailRows[index];
+      if (!detail) return;
+      const height = detail.getBoundingClientRect().height;
+      line.style.height = `${height}px`;
+      line.style.minHeight = `${height}px`;
+    });
+  });
 }
 
 function renderSupplierOptions(selectedId) {
@@ -2334,6 +2349,8 @@ function bindEvents() {
   $('#materialNameQueryInput').addEventListener('keydown', (event) => {
     if (event.key === 'Enter') queryMaterial();
   });
+
+  window.addEventListener('resize', alignMaterialImageRows);
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') closeModal();
