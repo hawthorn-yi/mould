@@ -512,7 +512,9 @@ function openModal({ title, body, footer = '', onMount = null, width = 720 }) {
       </div>
     </div>
   `;
-  $('[data-close-modal]', root).addEventListener('click', closeModal);
+  $$('[data-close-modal]', root).forEach((button) => {
+    button.addEventListener('click', closeModal);
+  });
   root.addEventListener('click', (event) => {
     if (event.target.classList.contains('modal-backdrop')) {
       closeModal();
@@ -613,6 +615,36 @@ async function compressImageFile(file, maxSize = 1400, quality = 0.82) {
   }
 }
 
+async function deleteMaterialImage(moldId, materialNo) {
+  const mold = getMoldById(moldId);
+  if (!mold) {
+    showToast('没有找到对应模具，请刷新后重试', 'error');
+    return;
+  }
+  const confirmed = window.confirm('确定删除该物料的图片吗？');
+  if (!confirmed) return;
+  try {
+    const items = mold.items.map((item) =>
+      item.materialNo === materialNo ? { ...item, image: '' } : item,
+    );
+    await api(`api/molds/${encodeURIComponent(mold.id)}`, {
+      method: 'PUT',
+      body: {
+        moldNo: mold.moldNo,
+        supplierId: mold.supplierId,
+        status: mold.status,
+        remark: mold.remark,
+        items,
+      },
+    });
+    await loadState();
+    renderMolds();
+    showToast('图片已删除');
+  } catch (error) {
+    showToast(error.message, 'error');
+  }
+}
+
 async function loadState() {
   const data = await api('api/state');
   state.suppliers = data.suppliers || [];
@@ -681,7 +713,12 @@ function renderMolds() {
             <div class="material-image-line">
               ${
                 item.image
-                  ? `<button class="mold-image-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" aria-label="查看或替换图片"><img class="mold-thumb" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.materialNo)} 图片" /></button>`
+                  ? `<div class="material-image-actions">
+                      <button class="mold-image-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" aria-label="查看或替换图片"><img class="mold-thumb" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.materialNo)} 图片" /></button>
+                      <button class="icon-button danger image-delete-button" data-delete-item-image-mold="${escapeAttr(mold.id)}" data-delete-item-image-no="${escapeAttr(item.materialNo)}" aria-label="删除图片">
+                        <i data-lucide="trash-2"></i>
+                      </button>
+                    </div>`
                   : `<button class="button button-secondary button-small" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}"><i data-lucide="image-plus"></i><span>上传</span></button>`
               }
             </div>
@@ -744,6 +781,14 @@ function renderMolds() {
       $('#imageInput').dataset.moldId = mold.id;
       $('#imageInput').dataset.materialNo = item.materialNo;
       $('#imageInput').click();
+    });
+  });
+  $$('[data-delete-item-image-mold]', body).forEach((button) => {
+    button.addEventListener('click', () => {
+      deleteMaterialImage(
+        button.dataset.deleteItemImageMold,
+        button.dataset.deleteItemImageNo,
+      );
     });
   });
   refreshIcons(body);
