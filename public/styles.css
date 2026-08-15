@@ -732,7 +732,7 @@ textarea:focus {
 }
 
 .material-images-cell {
-  width: 70px;
+  width: 112px;
   padding: 0 !important;
 }
 
@@ -747,6 +747,19 @@ textarea:focus {
 
 .material-image-line:last-child {
   border-bottom: 0;
+}
+
+.material-image-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.image-delete-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
 }
 
 .mold-image-cell {
