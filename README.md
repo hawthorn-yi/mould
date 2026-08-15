@@ -16,6 +16,25 @@ node server.js
 - 建议定期备份 `data` 目录。
 - 首次启动会生成 A/B 两套示例模具，可在页面中删除或替换。
 
+## 使用 Supabase
+
+配置环境变量：
+
+```powershell
+$env:SUPABASE_URL = "https://your-project.supabase.co"
+$env:SUPABASE_ANON_KEY = "your-anon-key"
+$env:PORT = "3000"
+$env:HOST = "0.0.0.0"
+```
+
+首次使用先在 Supabase 后台的 SQL Editor 执行 `supabase/migrations/20260815_init.sql`，然后导入本地数据：
+
+```powershell
+node scripts/sync-to-supabase.js
+```
+
+启动服务后，网站会自动使用 Supabase 数据库；不配置 Supabase 环境变量时，仍使用本地 `data/db.json`。
+
 ## 主要功能
 
 - 模具资料维护：新增、编辑、删除、Excel/CSV 导入，支持物料名称。
