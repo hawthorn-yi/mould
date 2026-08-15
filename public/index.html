@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>模具管理系统</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">
+            <i data-lucide="box"></i>
+          </div>
+          <div>
+            <h1>模具管理系统</h1>
+            <p>模具资料、供应商与采购订单配套校验</p>
+          </div>
+        </div>
+        <nav class="tabs" aria-label="主导航">
+          <button class="tab active" data-view="molds">
+            <i data-lucide="layers"></i>
+            <span>模具资料</span>
+          </button>
+          <button class="tab" data-view="order">
+            <i data-lucide="clipboard-check"></i>
+            <span>订单校验</span>
+          </button>
+          <button class="tab" data-view="material">
+            <i data-lucide="search"></i>
+            <span>物料查询</span>
+          </button>
+          <button class="tab" data-view="orders">
+            <i data-lucide="history"></i>
+            <span>订单记录</span>
+          </button>
+        </nav>
+        <div class="top-actions">
+          <button id="btnSuppliers" class="button button-secondary">
+            <i data-lucide="users"></i>
+            <span>供应商</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section id="view-molds" class="view active">
+          <div class="section-heading">
+            <div>
+              <h2>模具资料</h2>
+              <p>维护模具号、供应商、状态以及每个物料的编码、名称和穴数。</p>
+            </div>
+            <div class="heading-actions">
+              <button id="btnDownloadTemplate" class="button button-secondary">
+                <i data-lucide="download"></i>
+                <span>下载模板</span>
+              </button>
+              <button id="btnImport" class="button button-secondary">
+                <i data-lucide="upload"></i>
+                <span>导入 Excel/CSV</span>
+              </button>
+              <button id="btnExportMolds" class="button button-secondary">
+                <i data-lucide="download"></i>
+                <span>导出 Excel</span>
+              </button>
+              <button id="btnNewMold" class="button button-primary">
+                <i data-lucide="plus"></i>
+                <span>新增模具</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <label class="field field-search">
+              <i data-lucide="search"></i>
+              <input id="moldSearch" type="search" placeholder="搜索模具号、物料编码、供应商或物料名称部分文字" />
+            </label>
+            <select id="moldStatusFilter" class="select">
+              <option value="">全部状态</option>
+              <option value="在用">在用</option>
+              <option value="维修">维修</option>
+              <option value="停用">停用</option>
+            </select>
+          </div>
+
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>模具号</th>
+                  <th>供应商</th>
+                  <th>状态</th>
+                  <th class="mold-material-code-header">物料编码</th>
+                  <th class="mold-material-name-header">物料名称</th>
+                  <th class="mold-material-cavities-header">穴数</th>
+                  <th>备注</th>
+                  <th class="mold-material-image-header">图片</th>
+                  <th class="actions-col">操作</th>
+                </tr>
+              </thead>
+              <tbody id="moldTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="view-order" class="view">
+          <div class="section-heading">
+            <div>
+              <h2>订单校验</h2>
+              <p>录入采购订单明细后，按模具穴数比例检查是否缺配套或数量不匹配。</p>
+            </div>
+            <div class="heading-actions">
+              <button id="btnDownloadOrderTemplate" class="button button-secondary">
+                <i data-lucide="download"></i>
+                <span>下载订单模板</span>
+              </button>
+              <button id="btnSaveOrder" class="button button-primary">
+                <i data-lucide="save"></i>
+                <span>保存订单</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="order-meta">
+            <label class="field">
+              <span>订单号</span>
+              <input id="orderNoInput" type="text" placeholder="例如 PO1" />
+            </label>
+            <button id="btnAddOrderLine" class="button button-secondary">
+              <i data-lucide="plus"></i>
+              <span>新增明细</span>
+            </button>
+            <button id="btnImportOrder" class="button button-secondary">
+              <i data-lucide="upload"></i>
+              <span>导入订单明细</span>
+            </button>
+          </div>
+
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>物料料号</th>
+                  <th>物料名称</th>
+                  <th>数量</th>
+                  <th>供应商</th>
+                  <th>使用模具</th>
+                  <th>备注</th>
+                  <th class="actions-col">操作</th>
+                </tr>
+              </thead>
+              <tbody id="orderLineBody"></tbody>
+            </table>
+          </div>
+
+          <div class="order-actions">
+            <button id="btnValidateOrder" class="button button-primary">
+              <i data-lucide="badge-check"></i>
+              <span>校验订单</span>
+            </button>
+            <button id="btnAutoFill" class="button button-secondary">
+              <i data-lucide="wand-2"></i>
+              <span>一键加入缺料</span>
+            </button>
+            <button id="btnClearOrder" class="button button-secondary">
+              <i data-lucide="eraser"></i>
+              <span>一键清除</span>
+            </button>
+          </div>
+
+          <div id="orderResult" class="result-panel empty">
+            <p>录入明细后点击“校验订单”，系统会在这里给出提示。</p>
+          </div>
+        </section>
+
+        <section id="view-material" class="view">
+          <div class="section-heading">
+            <div>
+              <h2>物料查询</h2>
+              <p>输入物料料号，查看所有能生产该物料的模具和供应商信息。</p>
+            </div>
+          </div>
+
+          <div class="query-box">
+            <label class="field field-search">
+              <i data-lucide="search"></i>
+              <input id="materialQueryInput" type="search" placeholder="物料编码，例如 001" />
+            </label>
+            <label class="field field-search">
+              <i data-lucide="search"></i>
+              <input id="materialNameQueryInput" type="search" placeholder="物料名称关键词" />
+            </label>
+            <button id="btnMaterialQuery" class="button button-primary">
+              <i data-lucide="search"></i>
+              <span>查询</span>
+            </button>
+          </div>
+
+          <div id="materialResult" class="result-panel empty">
+            <p>输入料号后点击查询。</p>
+          </div>
+        </section>
+
+        <section id="view-orders" class="view">
+          <div class="section-heading">
+            <div>
+              <h2>订单记录</h2>
+              <p>查看已保存的采购订单，并可继续编辑或删除。</p>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>订单号</th>
+                  <th>明细数</th>
+                  <th>状态</th>
+                  <th>更新时间</th>
+                  <th class="actions-col">操作</th>
+                </tr>
+              </thead>
+              <tbody id="ordersTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+    <input id="fileInput" type="file" accept=".xlsx,.xls,.csv" hidden />
+    <input id="orderFileInput" type="file" accept=".xlsx,.xls,.csv" hidden />
+    <input id="imageInput" type="file" accept="image/*" hidden />
+    <div id="modalRoot"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
