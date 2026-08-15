@@ -1,0 +1,3544 @@
+{
+  "suppliers": [
+    {
+      "id": "sup-1",
+      "name": "供应商甲",
+      "contact": "",
+      "phone": "",
+      "remark": ""
+    },
+    {
+      "id": "sup-2",
+      "name": "供应商乙",
+      "contact": "",
+      "phone": "",
+      "remark": ""
+    },
+    {
+      "id": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "name": "惠州市新可新材料科技有限公司",
+      "contact": "",
+      "phone": "",
+      "remark": ""
+    },
+    {
+      "id": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "name": "深圳市鑫杰瑞科技有限公司",
+      "contact": "",
+      "phone": "",
+      "remark": ""
+    }
+  ],
+  "molds": [
+    {
+      "id": "mold-dba4c81e-b274-48b6-afad-ca71c915efef",
+      "moldNo": "HX043",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-1d507568-8e4f-4b44-849c-ba5e2d225fc9",
+          "materialNo": "ASMSJFG00038",
+          "materialName": "塑胶材料 泛光灯 B款  天线盒 晒纹黑色 PC 沙特LS2-111 5g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   38.00mm*36.00mm*19.50mm WiFi-B款天线盒-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-0063ed76-0e4d-4463-8e26-1eb5f5e4e14f",
+      "moldNo": "HX22041",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-b403d0b2-4586-4964-a508-0ae065fb423c",
+          "materialNo": "ASMSJBD00080",
+          "materialName": "BP五头分体太阳能壁灯 材料ABS-PA757/抗UV/防火HB/耐温>80℃/131.2*89.2*53.9mm/黑色/68g/与B36石墨烯中壳共用模具/图号BD-BP5T-ABS中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-13eec383-f047-4c79-8608-af005ac90691",
+          "materialNo": "ASMSJBD00087",
+          "materialName": "PC中壳  BP27五头壁灯 材料PC-6710/抗UV/防火UL94-5VA/耐温120℃/131.2*89.2*53.9mm/粗纹黑色/78g/与B36石墨烯中壳共用模具/图号BD-BP27-PC中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-552da9cc-c429-4b8c-92cf-023491e52b29",
+          "materialNo": "ASMSJBD00090",
+          "materialName": "PC中壳  BP27五头壁灯 材料PC-6710/抗UV/防火UL94-5VA/耐温120℃/131.2*89.2*53.9mm/粗纹白色/78g/与B36石墨烯中壳共用模具/图号BD-BP27-PC中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-6be9dfcd-e784-4c5d-918a-6701ef00b708",
+          "materialNo": "ASMSJBD00109",
+          "materialName": "石墨烯+PA66材料/131.2*89.2*53.9mm/喷粉白色外壳/98g/BD-B36-石墨烯中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-824eb6d9-ea74-4635-b6fa-3890263c9b2f",
+          "materialNo": "ASMSJBD00144",
+          "materialName": "石墨烯+PA66 98.00g 防火5VA 抗UW1 耐得120C 符合ROHS/REACH 131.20mm*89.20mm*53.90mmBD-B36-石要烯中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-c365eccd-e043-4949-b795-a916f0a7f25b",
+          "materialNo": "ASMSJBD00145",
+          "materialName": "B36三头壁灯 石墨烯中壳 石墨烯+PA66材料/131.2*89.2*53.9mm/粗纹黑色/98g/BD-B36-石墨烯中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-f7aeaefe-bb2f-4b9f-8a09-1bc6b5b02e72",
+          "materialNo": "ASMSJBD00147",
+          "materialName": "石墨烯左右壳  B36三头壁灯 三个φ2.4孔柱  石墨烯+PA66材料/83.2*67.6*53.9mm/粗纹黑色/45g/BD-B36-石墨烯左右壳-A02",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-3f5f033a-df0f-4de9-aeec-e0cf2f70c7ae",
+      "moldNo": "HX22042",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "image": "",
+      "items": [
+        {
+          "id": "item-b7d54f55-e8cd-4f56-bcee-51142f445dfa",
+          "materialNo": "A22BBP27W01",
+          "materialName": "PC左右壳  BP27五头壁灯 材料PC-6710/抗UV/防火UL94-5VA/耐温120℃/83.2*67.6*53.9mm/粗纹白色/36g/与B36石墨烯左右壳共用模具/图号BD-BP27-PC左右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-691ff9c7-ef41-4b83-a10b-df3b1dffffe4",
+          "materialNo": "ASMSJBD00079",
+          "materialName": "塑胶材料 壁灯 BP五头分体太阳能  左右壳 晒纹黑色 ABS 31g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   83.2mm*67.6mm*53.9mm BD-BP5T-ABS左右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-d84ff72e-4a6b-42ce-8713-6e7849b1bab5",
+          "materialNo": "ASMSJBD00086",
+          "materialName": "塑胶材料 壁灯 BP27五头壁灯  左右壳 晒纹黑色 PC-6710 36g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   83.2mm*67.6mm*53.9mm BD-BP27-PC左右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-5e3cf0e3-0e9f-47cb-99c9-7287ff3f6ef3",
+          "materialNo": "ASMSJBD00108",
+          "materialName": "塑胶材料 壁灯 B36  石墨烯左右壳 喷粉砂纹白色 石墨烯+PA66 45g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   83.2mm*67.6mm*53.9mm BD-B36-石墨烯左右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-0c04e0f4-f4f4-447d-84dd-585b29dd4b95",
+          "materialNo": "ASMSJBD00146",
+          "materialName": "塑胶材料 壁灯 B36  石墨烯左右壳 喷粉砂纹棕色 石墨烯+PA66 45.00g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   83.20mm*67.60mm*53.90mm BD-B36-石墨烯左右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e0bbdfc3-7966-4b8a-80ad-c60e7b51f079",
+          "materialNo": "ASMSJBD00147",
+          "materialName": "塑胶材料 壁灯 B36  石墨烯左右壳 晒纹石墨烯颜色 石墨烯+PA66 45g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   83.2mm*67.6mm*53.9mm BD-B36-石墨烯左右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-9ac523fe-f8f3-4f6c-9890-ed35a8d88ebe",
+          "materialNo": "ASMSJBD00253",
+          "materialName": "塑胶材料 壁灯 BP五头分体太阳能  左右壳 晒纹白色+全遮光 ABS 31g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   83.20mm*67.60mm*53.90mm BD-BP5T-ABS左右壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-2cd1de5b-2537-43a7-a1cd-1245e4f5f147",
+      "moldNo": "HX22040",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "4个（共3款，分大孔，小孔和无孔，这里是小孔和无孔）",
+      "items": [
+        {
+          "id": "item-3127ee8f-2b41-4c79-a374-d873ed5fa90b",
+          "materialNo": "ASMSJBD00018",
+          "materialName": "壁灯C款底座/PC6710/105*98*78/黑色/71g/符合ROHS/REACH/耐温120℃/防火5VA/抗UVf1/BD-C款底座-常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-de52328f-c4cc-4a30-abca-642ee377140e",
+          "materialNo": "ASMSJBD00019",
+          "materialName": "壁灯C款底座/PC6710/105*98*78/黑色/71g/符合ROHS/REACH/耐温120℃/防火5VA/抗UVf1/BD-C款底座-人体感应款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-66fe4484-d7be-4f1a-8363-b8714680872a",
+          "materialNo": "ASMSJBD00020",
+          "materialName": "壁灯C款底座/PC6710/105*98*78/黑色/71g/符合ROHS/REACH/耐温120℃/防火5VA/抗UVf1/BD-C款底座-光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-349550e5-b5d5-4b27-aa3d-0d2459b02e1f",
+          "materialNo": "ASMSJBD00024",
+          "materialName": "壁灯C款底座/PC6710/105*98*78/白色/71g/符合ROHS/REACH/耐温120℃/防火5VA/抗UVf1/BD-C款底座-光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-5a0553af-84a9-42e8-af16-1cc2d41c7eed",
+          "materialNo": "ASMSJBD00185",
+          "materialName": "塑胶材料 壁灯 底座 C款底座光感款（Φ16.5孔） 晒纹棕色 PC6710 71g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 105mm*98mm*78mm BD-C款底座-光感款-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-2884b333-1f99-429d-886b-7b0ea0acf3a3",
+      "moldNo": "HX22039",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-87843b61-8a36-423e-86ac-3b421a270a53",
+          "materialNo": "ASMSJBD00021",
+          "materialName": "壁灯C款底盖 PC110/93.7*81.5*16/黑色/31g/符合ROHS/REACH/耐温110℃/防火HB/BD-C款底盖-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-579c2945-27bd-4ed9-bbb1-9536c5ad6c40",
+          "materialNo": "ASMSJBD00022",
+          "materialName": "壁灯C款底盖 PC110/93.7*81.5*16/白色/31g/符合ROHS/REACH/耐温110℃/防火HB/BD-C款底盖-A02",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-040fdbc2-6461-4e8d-8f33-c1ac255f16b5",
+      "moldNo": "HX22044",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-907d02b5-77b8-4709-bd9e-040d160dca8e",
+          "materialNo": "ASMSJCT00005",
+          "materialName": "堵头 C27 UV长条灯 41.6*33.7*12.6mm/材质PC-110/黑色/防火5VA或V-2/耐温110℃/5.2g/图号CT-C27-UV-堵头-A01",
+          "cavities": 8
+        },
+        {
+          "id": "item-ec19f623-e7f1-4ffa-837d-6c0a970d816f",
+          "materialNo": "ASMSJCT00006",
+          "materialName": "堵头 D27 UV长条灯 41.6*33.6*12.6mm/材质PC-110/黑色/防火5VA或V-2/耐温110℃/4.7g/图号CT-D27-UV-堵头-A01",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-bf155001-b3b5-48e7-abeb-a5a6d88a8cf1",
+      "moldNo": "HX22045",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-18e8cff7-3673-411b-9f63-d0aa241711a3",
+          "materialNo": "ASMSJCT00014",
+          "materialName": "支架 C27 UV长条灯 36*27*60.4mm/材质PC-110/黑色/防火5VA或V-2/耐温110℃/13.7g/图号CT-C27-UV-支架-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-db77a162-1a92-4da1-9c03-e564ae10f7a7",
+      "moldNo": "HX22048",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-ef7d8a52-f739-45f6-abda-6640c96ebcdb",
+          "materialNo": "ASMSJGG00003",
+          "materialName": "塑胶材料 光感头 A款  上盖 晒纹黑色 ABS 1.3g 防火HB  耐温80℃  符合RoHS/REACH   41mm*20.8mm*6.2mm 光感-上盖-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-fb0dcc11-e515-4767-b654-f2bdf97815a9",
+          "materialNo": "ASMSJGG00004",
+          "materialName": "塑胶材料 光感头 A款  后壳 晒纹黑色 ABS 8.1g 防火HB  耐温80℃  符合RoHS/REACH   43mm*23.6mm*24mm 光感-后壳-A01",
+          "image": "",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-90cfdf69-5b18-49e5-9148-abba157c4674",
+      "moldNo": "HX20043",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-bc5c979d-aa2e-41f1-a781-4ab843a5ca7e",
+          "materialNo": "ASMSJBD00071",
+          "materialName": "防护罩 ABS/114*114*18.5mm/黑色/28g/符合ROHS/REACH/BD-MQDL-防护罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-52532bbc-df11-4dae-a40c-b605a9cd36ab",
+      "moldNo": "HX22060",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-b39b4ad5-69ee-4ae0-bc49-20cff1a24138",
+          "materialNo": "ASMSJBD00088",
+          "materialName": "PC侧边壳  BP27五头壁灯 材料PC-6710/抗UV/防火UL94-5VA/耐温120℃/87.8*68*53.9mm/粗纹黑色/45g/与BS55石墨烯侧边壳共用模具/图号BD-BP27-PC侧边壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-25f60cd6-ae28-4c7d-b0f8-6a0416fb8b5b",
+          "materialNo": "ASMSJBD00089",
+          "materialName": "PC侧边壳  BP27五头壁灯 材料PC-6710/抗UV/防火UL94-5VA/耐温120℃/87.8*68*53.9mm/粗纹白色/45g/与BS55石墨烯侧边壳共用模具/图号BD-BP27-PC侧边壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-0d29510c-9474-499e-aafa-4abf0d605fa6",
+          "materialNo": "ASMSJBD00110",
+          "materialName": "石墨烯+PA66材料/87.8*68*53.9mm/喷粉白色/56g/图号BD-BS55-石墨烯侧边壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-58750db8-731a-484b-8ec1-a0e956cec805",
+          "materialNo": "ASMSJBD00148",
+          "materialName": "石墨烯侧边壳  BS55五头壁灯 石墨烯+PA66材料/87.8*68*53.9mm/粗纹黑色/56g/图号BD-BS55-石墨烯侧边壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-6eff8e21-47ff-4d59-85c8-7dd21efe82e5",
+          "materialNo": "ASMSJBD00149",
+          "materialName": "石墨烯+PA66 56.00g 防火5VA 抗UVf1 耐温120C 符合RoHS/REACH87.80mm*68.00mm*53.90mm BD-BS55-石墨烯侧边壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-ca2c6e65-0de5-4994-8e97-d0a189c32e4c",
+      "moldNo": "HX22059",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-d98dc640-5ab8-426e-88b3-052837e36008",
+          "materialNo": "ASMSJBD00058",
+          "materialName": "塑胶材料 壁灯 BS55  侧边透光罩 透明 PC2407 13g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   83.3mm*63.5mm*6.2mm BD-BS55-侧边透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-18295a23-d88e-4dcb-8323-dc0e693aa7a9",
+      "moldNo": "HX23009",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-13dd72f3-a86b-4f15-9050-080a82a4a16a",
+          "materialNo": "JT-ASMSJGY00002",
+          "materialName": "塑胶材料 人体感应头 B款  上壳 晒纹黑色 ABS 20g 防火5VA 抗UVf1 耐温85℃  符合RoHS/REACH   65.5mm*62mm*37.7mm GYT-B款人体感应-上壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-676e38e5-69ff-4685-b8b5-be6f6ad09a4c",
+      "moldNo": "HX23008",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "2款D2D镶件（分中文款和英文款，这里是中文款），另外2款分无孔+有孔（D2D字体和OFF字体）",
+      "items": [
+        {
+          "id": "item-75363f34-26ae-4e68-b475-2fcb8611bce1",
+          "materialNo": "ASMSJGY00003",
+          "materialName": "塑胶材料 人体感应头 B款  无孔下壳 晒纹黑色 ABS 23g 防火5VA 抗UVf1 耐温85℃  符合RoHS/REACH   65.5mm*62mm*52mm GYT-B款人体感应-无孔下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-229d298d-d175-4dfa-8208-113765d632d4",
+          "materialNo": "ASMSJGY00009",
+          "materialName": "塑胶材料 人体感应头 B款 下壳 晒纹白色 ABS 23g 防火5VA 抗UVf1 耐温85℃ 符合ROHS/REACH 65.5mm*62mm*52mm GYT-B款人体感应-三孔D2D下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-720d9e2b-59bb-49a0-8408-4e71ec3d23b4",
+          "materialNo": "ASMSJGY00013",
+          "materialName": "ABS/65.5*62*52/棕色晒纹/23g/符合ROHS/REACH/耐温85℃/防火5VA/V0/HB/抗UVf1/图号:GYT-B款人体感应-三孔D2D下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-6fc373c1-299b-43cd-9039-cd25d854f5e9",
+          "materialNo": "ASMSJGY00016",
+          "materialName": "B款人体感应 三孔D2D下壳/ABS/65.5*62*52/黑色晒纹/23g/符合ROHS/REACH/耐温85℃/防火5VA/V0/HB/抗UVf1/图号:GYT-B款人体感应-三孔D2D下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-fba8319a-3823-40ee-90fb-fb68a1eceaa5",
+          "materialNo": "ASMSJGY00018",
+          "materialName": "塑胶材料 人体感应头 B款  无孔下壳 晒纹白色 ABS 23.00g 防火5VA 抗UVf1 耐温85℃  符合RoHS/REACH   65.50mm*62.00mm*52.00mm GYT-B款人体感应-无孔下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-80c37004-0bb6-4551-9cce-5115e188e9d5",
+          "materialNo": "ASMSJGY00035",
+          "materialName": "B款人体感应 三孔开关下壳/ABS/65.5*62*52/黑色/23g/符合ROHS/REACH/耐温85℃/防火5VA/V0/HB/抗UVf1/图号:GYT-B款人体感应-三孔开关下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-eac456c4-c91b-42ff-9ad1-5dacee82d75b",
+          "materialNo": "ASMSJGY00036",
+          "materialName": "ABS/65.5*62*52/23g/符合ROHS/REACH/耐温85℃/防火5VA/V0/HB/抗UVf1/图号：GYT-B款人体感应-三孔开关下壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-d0c1fb2f-5401-4a88-925b-55c78c295448",
+          "materialNo": "ASMSJGY00052",
+          "materialName": "塑胶材料 人体感应头 B款 下壳 晒纹灰色 ABS 23g 防火5VA 抗UVf1 耐温85℃ 符合ROHS/REACH 65.50mm*62.00mm*52.00mm GYT-B款人体感应-三孔D2D下壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-c56588e1-ff53-4570-bb7f-040de09fa574",
+      "moldNo": "HX23010",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-f73d0111-978c-448e-a53f-575628656a20",
+          "materialNo": "ASMSJGY00037",
+          "materialName": "B款人体感应头 拨杆/19.6*5.8*7.2mm/黑色晒纹/材质ABS/防火HB/耐温85℃/抗UV等级f1/1g/图号:GYT-B款人体感应头-拨杆-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-3201e8e0-daf8-4710-94b5-59950b6d873a",
+          "materialNo": "ASMSJGY00038",
+          "materialName": "B款人体感应头 拨杆/19.6*5.8*7.2mm/白色晒纹/材质ABS/防火HB/耐温85℃/抗UV等级f1/1g/图号:GYT-B款人体感应头-拨杆-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-15c8d39b-8f57-4397-a2e9-8d79b4c656d2",
+          "materialNo": "1010252077",
+          "materialName": "塑胶材料 人体感应头 B款  PIR支架 晒纹白色 ABS 1g 防火HB  耐温85℃  符合RoHS/REACH   26mm*14mm*5.8mm GYT-B款人体感应头-PIR支架-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-add4ab89-54b2-4526-a8ff-6d7b05041069",
+          "materialNo": "ASMSJGY00004",
+          "materialName": "塑胶材料 人体感应头 B款  PIR支架 晒纹黑色 ABS 1g 防火HB  耐温85℃  符合RoHS/REACH   26mm*14mm*5.8mm GYT-B款人体感应头-PIR支架-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-b59d2037-8c3e-4246-824a-57d4cd629aec",
+          "materialNo": "ASMSJGY00010",
+          "materialName": "B款人体感应头  D2D拨杆/33.6*8.5*7.2mm/白色晒纹/材质ABS/防火HB/耐温85℃/抗UV等级f1/1g/图号:GYT-B款人体感应头-D2D拨杆-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-5047b003-c1c2-4eb2-97b3-67f16216d3c0",
+          "materialNo": "ASMSJGY00017",
+          "materialName": "塑胶材料 人体感应头 B款  D2D拨杆 黑色晒纹 ABS 1.00g 防火HB 抗UVf1 耐温85℃     33.60mm*8.50mm*7.20mm GYT-B款人体感应头-D2D拨杆-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-02acc6fe-0d8a-4c60-9e60-adb1e1ba4a9f",
+          "materialNo": "ASMSJGY00053",
+          "materialName": "塑胶材料 人体感应头 B款 D2D拨杆 灰色晒纹 ABS 1g 防火HB 抗UVf1 耐温85℃ 33.60mm*8.50mm*7.20mm GYT-B款人体感应头-D2D拨杆-A01",
+          "cavities": 3
+        }
+      ]
+    },
+    {
+      "id": "mold-abafb91e-a871-47d9-bca0-abaafe0c19f7",
+      "moldNo": "HX23011",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-00de8ba4-96e1-4890-b6e5-9e0c097d5309",
+          "materialNo": "ASMSJGY00005",
+          "materialName": "塑胶材料 人体感应头 B款  反射架 镜面电镀 ABS 1g 防火HB  耐温85℃  符合RoHS/REACH   25mm*21mm*10.5mm GYT-B款人体感应头-反射架-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-fa6d238a-5982-4e53-baac-824977993209",
+      "moldNo": "HX23020",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-c6f1f69e-c248-41d9-85c4-f71c9880a168",
+          "materialNo": "ASMSJGC00009",
+          "materialName": "谷仓灯 A100  50W盖子 黑色晒纹 PC6710 6.5g 防火V0 抗UVf1 耐温120℃  符合ROHS/REACH   ∅49.5mm*15.90mm GC-50W盖子-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-39005da7-777d-4831-8e97-73afdd3a70ca",
+          "materialNo": "A22ZGC50B04",
+          "materialName": "50W过线盖 50W谷仓灯过线盖/ABS/φ40*15.5mm/黑色/3g/符合ROHS/REACH/耐温85℃/防火HB/GC-50W过线盖-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-9fa56183-a05e-4e53-b7a8-d2689bf4ae47",
+          "materialNo": "A22ZGC50B02",
+          "materialName": "50W转轴卡件 50W谷仓灯转轴卡件/ABS/23*23*16mm/黑色/2g/符合ROHS/REACH/耐温85℃/GC-50W转轴卡件-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-58bf3209-01a7-45d7-81d5-4dae1a314cf6",
+      "moldNo": "HX23014",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-706e0888-0e40-4b4e-9795-4331f0e9ea01",
+          "materialNo": "ASMSJGC00011",
+          "materialName": "50W透光罩 50W谷仓灯透光罩 A/A/PC/φ155.4*37.7mm/透明/86.5g/符合ROHS/REACH/耐温120℃/抗UVf1/防火V0/GC-50W透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-87693868-282c-44f5-828e-4dbc368aad73",
+          "materialNo": "ASMSJGC00003",
+          "materialName": "塑胶材料 谷仓灯 A50 薄透光罩 透明 PC 55.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅155.5mm*15.7mm GC-50W薄透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-364a9f33-e2a1-4f32-a3c0-3eddf0bfe955",
+      "moldNo": "HX23019",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-f2898a10-599b-4ae7-bc66-8f78ac6ab7b3",
+          "materialNo": "ASMSJGC00008",
+          "materialName": "塑胶材料 谷仓灯 A100  50W主轴 黑色晒纹 PC6710 36.5g 防火V0 抗UVf1 耐温120℃  符合ROHS/REACH   ∅46mm*84.50mm GC-50W主轴-A02",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-2f7247ed-0c87-4f65-a275-8717cc4ad326",
+      "moldNo": "HX23018",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-7e530336-cabe-4c79-84ae-73fe14e43b05",
+          "materialNo": "ASMSJGC00010",
+          "materialName": "塑胶材料 谷仓灯 50W  转轴 晒纹黑色 PC6710 34g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   82mm*56.8mm*50mm GC-50W转轴-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-b0feb2ec-1d2f-4159-b07f-54e95b13bdfb",
+      "moldNo": "HX23025",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-cd2a2d79-0989-4aa5-bae7-ef5c310ed6a1",
+          "materialNo": "ASMSJFG00031",
+          "materialName": "I20泛光灯 常规外壳/材料:石墨烯+PA66/132*88*30mm/粗纹黑色/73g/FG-I20-石墨烯常规外壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-a7f590fe-9886-444f-a565-515e0cbeae35",
+          "materialNo": "ASMSJFG00039",
+          "materialName": "塑胶材料 泛光灯 I20泛光灯  WIFI外壳 粗纹黑色 石墨烯+PA66 74g132.00mm*88.00mm*30.00mm FG-I20石墨烯-WIFI外壳-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-0a05e88b-5ff7-407d-b3c4-e11516ff16ef",
+      "moldNo": "HX23024",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "4个（不带窗口）",
+      "items": [
+        {
+          "id": "item-25ba108a-e2ad-4344-916d-0f267b32d669",
+          "materialNo": "ASMSJFG00011",
+          "materialName": "I20泛光灯 常规透光罩  A/A PC/126.2*83.2*6.3mm/透明/22g/符合ROHS/REACH/耐温120℃/FG-I20-常规透光罩-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-d1db567b-0b98-4941-bc4d-ac7220b6615e",
+          "materialNo": "ASMSJFG00037",
+          "materialName": "塑胶材料 泛光灯 I20  红外透光罩 晒纹+透明 PC2407 22g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   126.20mm*83.20mm*6.30mm FG-I20-红外透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-5b45097a-cf0e-4c6d-81c9-58cc87c85f21",
+      "moldNo": "HX23021",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "ASMSJBD00230，2款，14.5孔和不穿孔",
+      "items": [
+        {
+          "id": "item-d085a128-0fd2-47e6-ab3c-e1c8445af4a6",
+          "materialNo": "ASMSJBD00233",
+          "materialName": "ABS/91.5*77.2*9.5mm/黑色/21g/耐温>80℃/抗UV等级f1/符合ROHS/REACH/图号:BD-DD电池盒-壁灯卡座-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-a5c21150-2724-4640-aa9a-4d32fffaed1e",
+          "materialNo": "ASMSJBD00232",
+          "materialName": "ABS/139.5*91.2*14.5mm/黑色/40g/耐温>80℃/防火HB/抗UV等级f1/符合ROHS/REACH/BD-DD电池盒-电池底盖-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-05314860-69b1-41c5-9d15-145581c13b58",
+          "materialNo": "ASMSJBD00257",
+          "materialName": "ABS/139.5*91.2*14.5mm/白色晒纹/40g/耐温>80℃/防火HB/抗UV等级f1/符合ROHS/REACH/BD-DD电池盒-电池底盖-A01",
+          "cavities": 3
+        },
+        {
+          "id": "item-e0be61c7-aa22-41aa-88d2-8f69a618c4e3",
+          "materialNo": "ASMSJBD00230",
+          "materialName": "ABS/124.5*82.1*15.5mm/黑色/19g/耐温>80℃/防火HB/符合ROHS/REACH/BD-DD电池盒-电池内托-A01",
+          "cavities": 3
+        }
+      ]
+    },
+    {
+      "id": "mold-28ba3c6f-2652-4fe1-afed-0fa2ffe700dd",
+      "moldNo": "HX23022",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-34715b36-a3fe-4ee5-bd77-5a57d32c6283",
+          "materialNo": "ASMSJBD00245",
+          "materialName": "塑胶材料 壁灯 DD电池款 双孔底座(14孔) 晒纹黑色 ABS 79g 防火HB 抗UVf1 耐温>80℃ RoHS/REACH 144.00mm*96.00mm*28mm BD-DD电池盒-双孔底座(14孔)-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-2e7b0ed4-9666-4a91-b896-a6f3cd270873",
+          "materialNo": "ASMSJBD00255",
+          "materialName": "塑胶材料 壁灯 DD电池款 双孔底座(14孔) 晒纹白色 ABS 79g 防火HB 抗UVf1 耐温>80℃ RoHS/REACH 144.00mm*96.00mm*28.00mm BD-DD电池盒-双孔底座(14孔)-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-baccde71-cf07-458b-9b57-146cf849096b",
+      "moldNo": "HX23017",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "3款，侧边有孔，正面（大孔+小孔）",
+      "items": [
+        {
+          "id": "item-77e9923f-28fa-4b75-82ef-94d67c8e43c9",
+          "materialNo": "A22B00DCB02",
+          "materialName": "D款底座带插头感应款（Φ12孔） PC/Φ120*92mm/黑色/81.5g/符合ROHS/REACH/BD-D-底座-带插头感应款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-df2e31bd-c6a0-4693-ae8c-db69f368350d",
+          "materialNo": "ASMSJ0000003",
+          "materialName": "D款底座感应款（Φ12孔） PC/Φ120*92mm/白色/82.0g/符合ROHS/REACH/BD-D-底座-感应款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-67d2d4e7-4600-45b5-9011-8201f0c382ad",
+          "materialNo": "ASMSJ0000004",
+          "materialName": "D款底座感应款（Φ12孔） PC/Φ120*92mm/黑色/82.0g/符合ROHS/REACH/BD-D-底座-感应款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-a0823767-1eb9-44e8-9ef4-f791c4555616",
+          "materialNo": "ASMSJ0000005",
+          "materialName": "D款底座感应款（Φ12孔） PC/Φ120*92mm/棕色/82.0g/符合ROHS/REACH/BD-D-底座-感应款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-db32368c-ca78-4cf3-9fd0-787e7d9f0971",
+          "materialNo": "ASMSJBD00095",
+          "materialName": "D款底座光感款 PC/Φ120*92mm/黑色/81.5g/符合ROHS/REACH/BD-D-底座-光感款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-c5b065b5-f924-4049-8a77-ca8b969319ec",
+          "materialNo": "ASMSJBD00096",
+          "materialName": "D款底座带插头光感款 PC/Φ120*92mm/黑色/81.3g/符合ROHS/REACH/BD-D-底座-带插头光感款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-ee8e4c5b-7ebf-4748-8c86-5e733637812f",
+          "materialNo": "ASMSJBD00097",
+          "materialName": "D款底座光感款 PC/Φ120*92mm/白色/81.5g/符合ROHS/REACH/BD-D-底座-光感款-A01",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-be1c84eb-31e6-4b96-85ea-39f3e71a0df1",
+          "materialNo": "ASMSJBD00125",
+          "materialName": "塑胶材料 壁灯 底座 D款底座带插头光感款（Φ16.1孔） 晒纹石墨烯颜色 PC6710 81.3g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 120mm*92mm BD-D-底座-带插头光感款-A02",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-d4e9dd6b-0758-4dc7-8594-dc113c0a852c",
+          "materialNo": "ASMSJBD00150",
+          "materialName": "塑胶材料 壁灯 底座 D款底座带插头光感款（Φ16.1孔） 晒纹白色 PC6710 81.30g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120.00mm*92.00mm BD-D-底座-带插头光感款-A02",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-e66e1831-a3c8-4d5e-9590-f211a63f0eaa",
+          "materialNo": "ASMSJBD00181",
+          "materialName": "塑胶材料 壁灯 D款底座光感款（Φ16.1孔） 晒纹棕色 PC6710 81.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*92mm BD-D-底座-光感款-A03",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-373450d1-8f59-46e4-81e9-a97a72bf83c8",
+          "materialNo": "ASMSJBD00198",
+          "materialName": "塑胶材料 壁灯 底座 D款底座光感款（Φ16.1孔） 晒纹石墨烯颜色 PC6710 81.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*92mm BD-D-底座-光感款-A02",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-7d3c80a6-5f47-4989-ba81-1541d042fe9b",
+          "materialNo": "ASMSJBD00208",
+          "materialName": "塑胶材料 壁灯 底座 D款底座常规款 晒纹石墨烯颜色 PC6710 81.9g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*92mm BD-D-底座-常规款-A02",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-a54aa72e-1b66-4aae-b9bd-f951afdc5745",
+          "materialNo": "ASMSJBD00209",
+          "materialName": "塑胶材料 壁灯 底座 D款底座带插头常规款 晒纹石墨烯颜色 PC6710 81.7g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 120.00mm*0.00mm*92.00mm BD-D-底座-带插头常规款-A02",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-0fda3097-b13b-453e-ab98-ae18478562c8",
+          "materialNo": "ASMSJBD00210",
+          "materialName": "塑胶材料 壁灯 底座  D款底座带插头光感款（Φ16.1孔） 晒纹棕色 PC6710 81.3g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   ∅120mm*92.00mm BD-D-底座-带插头光感款-A02",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-74d4c7ae-0f76-4fb4-b0a0-83c3c10e40e9",
+          "materialNo": "ASMSJBD00242",
+          "materialName": "塑胶材料 壁灯 D款底座常规款 晒纹黑色 PC6710 81.9g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*92mm BD-D-底座-常规款-A03",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-da390356-bfc7-4f6e-9ad8-90fcf1d52269",
+          "materialNo": "ASMSJBD00243",
+          "materialName": "塑胶材料 壁灯 D款底座常规款 晒纹白色 PC6710 81.9g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*92mm BD-D-底座-常规款-A03",
+          "image": "",
+          "cavities": 2
+        },
+        {
+          "id": "item-08bf0f56-4e41-4e2e-8465-48068572bc5e",
+          "materialNo": "ASMSJBD00244",
+          "materialName": "塑胶材料 壁灯 D款底座常规款 晒纹棕色 PC6710 81.9g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*92mm BD-D-底座-常规款-A03",
+          "image": "",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-e9a851cb-fe52-4feb-976c-b34f2b2c1bb4",
+      "moldNo": "HX23016",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-82c0c02d-d6ef-4c06-8769-d065f28fc955",
+          "materialNo": "ASMSJBD00582",
+          "materialName": "塑胶材料 壁灯 M55 左右透光罩 透明 PC2407 14.1g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 86.4mm*65.4mm*20.3mm BD-M55-3T-左右透光罩-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-9ada893b-d13f-4934-b107-5ac747701737",
+          "materialNo": "ASMSJBD00581",
+          "materialName": "塑胶材料 壁灯 M55 中透光罩 透明 PC2407 28g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 128.4mm*86.4mm*13.7mm BD-M55-3T-中透光罩-B01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-a110d072-9fa9-48f1-a718-c7284b60a806",
+      "moldNo": "HX23015",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-481bb337-0451-4591-bf0a-9431f1d0a21a",
+          "materialNo": "ASMSJBD00583",
+          "materialName": "塑胶材料 壁灯 M100 侧透光罩 透明 PC2407 14.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 86.4mm*65.4mm*11.7mm BD-M100-5T-侧透光罩-B01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-ad8d84be-fffd-465b-9971-06fb1b494c50",
+      "moldNo": "HX23055",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-00400884-20d8-4243-9306-80372c925aff",
+          "materialNo": "ASMSJBD00154",
+          "materialName": "PC2407 11.7g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH   78.6mm*63mm*16.2mm BD-B55-3T-左透光罩-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-32f841a5-ca12-4a4c-aa20-70f704607dba",
+          "materialNo": "ASMSJBD00155",
+          "materialName": "PC2407 11.7g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH   78.6mm*63mm*16.2mm BD-B55-3T-右透光罩-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-c7bd6f7f-78d6-4df3-a3fa-488a9c809986",
+          "materialNo": "ASMSJBD00156",
+          "materialName": "PC2407 27.2g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH   126.8mm*84.5mm*18.6mm BD-B55-3T-中透光罩-B01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-3574406f-6de4-47f3-83f1-e53d381dce95",
+      "moldNo": "HX23051",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-b7505463-af59-415b-8c00-369027cfa9bf",
+          "materialNo": "ASMSJCT00031",
+          "materialName": "塑胶材料 长条灯 CB40 UV  CB40塑胶堵头 黑色 PC-110 6g 防火V0 抗UVf1 耐温120℃     45.2mm*38mm*11.6mm CT-CB40-塑胶堵头-A02",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-37ab2aea-cd24-4572-b0c1-438de6504f0a",
+      "moldNo": "HX23052",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-64234e7a-6786-43a0-b4c1-bc440d4d0c3e",
+          "materialNo": "ASMSJCT00008",
+          "materialName": "塑胶材料 长条灯 T5 堵头 晒纹黑色 ABS 0.8g 防火HB 耐温80℃ 符合RoHS/REACH 23.2mm*11.9mm*9.8mm CT-T5-UV-端盖-B01",
+          "cavities": 16
+        }
+      ]
+    },
+    {
+      "id": "mold-17d4c112-7d7f-4f67-95ea-f6f6b132a829",
+      "moldNo": "YCY23062",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-25331a5f-3886-4d3c-9150-2076e3cbbb33",
+          "materialNo": "ASMSJCT00022",
+          "materialName": "塑胶材料 长条灯 E18  外壳 晒纹黑色 石墨烯+PA66 109.9g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   380mm*40mm*34.5mm CT-E18-外壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-801c7d55-d823-4904-bfb6-203e3948b7c0",
+      "moldNo": "XC23083",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-03cd5bac-6c22-43e3-9fa2-4d0caf3585c2",
+          "materialNo": "ASMSJBD00179",
+          "materialName": "塑胶材料 壁灯 B款门前灯笼  常规款安装座 晒纹黑色 ABS 59.5g 防火V0 抗UVf1 耐温85℃  符合RoHS/REACH   120mm*110mm*92.5mm BD-MQDL-常规款安装座-B01",
+          "cavities": 999
+        }
+      ]
+    },
+    {
+      "id": "mold-a8ebf0c8-7c7b-4781-a618-489a32b06855",
+      "moldNo": "XC23084",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-eafae593-8253-401d-873d-d0d0f275869f",
+          "materialNo": "ASMSJBD00129",
+          "materialName": "塑胶材料 壁灯 C款门前灯笼  上盖 晒纹黑色 ABS 100.5g 防火V0 抗UVf1 耐温85℃  符合RoHS/REACH   154.00mm*154.00mm*66.50mm BD-MQDL-上盖-C01",
+          "cavities": 999
+        }
+      ]
+    },
+    {
+      "id": "mold-77f8e4b9-e376-43bb-a105-10fd4f8984a3",
+      "moldNo": "XC23085",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-a3dc6612-eb33-4fed-9dfe-ab88600363c9",
+          "materialNo": "ASMSJBD00132",
+          "materialName": "塑胶材料 壁灯 B款门前灯笼  框架上 晒纹黑色 ABS 28g 防火V0 抗UVf1 耐温85℃  符合RoHS/REACH   122.00mm*122.00mm*19.00mm BD-MQDL-框架上-B01",
+          "cavities": 999
+        }
+      ]
+    },
+    {
+      "id": "mold-7e3df75f-b800-4687-a301-37c8107e032b",
+      "moldNo": "XC23086",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-6e0b58e3-ab1f-4a8a-aca2-5b08328ebf2c",
+          "materialNo": "ASMSJBD00134",
+          "materialName": "塑胶材料 壁灯 B款门前灯笼  连杆 晒纹黑色 ABS 21.5g 防火V0 抗UVf1 耐温85℃  符合RoHS/REACH   231.20mm*20.40mm*14.30mm BD-MQDL-连杆-B01",
+          "cavities": 999
+        }
+      ]
+    },
+    {
+      "id": "mold-ebbc4a3b-a0f8-489e-920b-6bf09b1fe5c6",
+      "moldNo": "XC23090",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-26cbf859-066c-4119-b348-88ba83ad956d",
+          "materialNo": "ASMSJBD00118",
+          "materialName": "塑胶材料 壁灯 N55  石墨烯中散热器 晒纹石墨烯颜色  98.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   133.15mm*87.70mm*72.60mm BD-N55-5T-石墨烯中散热器-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-71667def-f00b-4520-b3a7-fbec5cee01d6",
+          "materialNo": "ASMSJBD00231",
+          "materialName": "塑胶材料 壁灯 NS36  ABS中壳 晒纹黑色 ABS 70g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   133mm*87.7mm*72.6mm NS36-3T-ABS中壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-85e05425-3835-4b55-963c-e8342c0f2cd8",
+      "moldNo": "YCY23085",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-d79137a7-693f-45dd-96e5-3414882eccbd",
+          "materialNo": "ASMSJBD00105",
+          "materialName": "塑胶材料 壁灯 NS36  石墨烯右侧散热器 晒纹石墨烯颜色 石墨烯+PA66 55.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   90.10mm*86.90mm*70.35mm BD-NS36-3T-石墨烯右侧散热器-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-4a05f9fd-4091-4026-8e43-831e54e577fb",
+          "materialNo": "ASMSJBD00201",
+          "materialName": "塑胶材料 壁灯 NS36  石墨烯右侧散热器 喷粉砂纹白色 石墨烯+PA66 55.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   90.10mm*86.90mm*70.35mm BD-NS36-3T-石墨烯右侧散热器-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-5362eaf1-bef1-4577-8e12-729303cfe91d",
+          "materialNo": "ASMSJBD00202",
+          "materialName": "塑胶材料 壁灯 NS36  石墨烯右侧散热器 喷粉砂纹棕色 石墨烯+PA66 55.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   90.10mm*86.90mm*70.35mm BD-NS36-3T-石墨烯右侧散热器-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-1e5fd2cb-f6df-4c69-aa17-cbaa944ad131",
+          "materialNo": "ASMSJBD00229",
+          "materialName": "塑胶材料 壁灯 NS36  ABS右侧壳 晒纹黑色 ABS 39g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   131.20mm*89.20mm*53.90mm NS36-3T-ABS右侧壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-aef8ee95-790a-4731-8f06-c03f1a49770b",
+          "materialNo": "ASMSJBD00104",
+          "materialName": "塑胶材料 壁灯 NS36  石墨烯左侧散热器 晒纹石墨烯颜色 石墨烯+PA66 55.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   90.10mm*86.90mm*70.35mm BD-NS36-3T-石墨烯左侧散热器-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-2852ef7a-5430-4d04-acd8-650f19390382",
+          "materialNo": "ASMSJBD00199",
+          "materialName": "塑胶材料 壁灯 NS36  石墨烯左侧散热器 喷粉砂纹白色 石墨烯+PA66 55.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   90.1mm*86.9mm*70.35mm BD-NS36-3T-石墨烯左侧散热器-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-3e384dc0-1923-497b-a419-567160e359b5",
+          "materialNo": "ASMSJBD00200",
+          "materialName": "塑胶材料 壁灯 NS36  石墨烯左侧散热器 喷粉砂纹棕色 石墨烯+PA66 55.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   90.1mm*86.9mm*70.35mm BD-NS36-3T-石墨烯左侧散热器-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-70f9ae8c-eb92-49d2-ae42-3b32cf1960b9",
+          "materialNo": "ASMSJBD00228",
+          "materialName": "塑胶材料 壁灯 NS36  ABS左侧壳 晒纹黑色 ABS 39g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   131.20mm*89.20mm*53.90mm NS36-3T-ABS左侧壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-89c5f9c0-562e-448d-9185-8a31309cbe66",
+      "moldNo": "XC23091",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-eed3fbd1-9233-421f-aac5-ef7e80230161",
+          "materialNo": "ASMSJBD00115",
+          "materialName": "塑胶材料 壁灯 N55  石墨烯右侧散热器 晒纹石墨烯颜色 石墨烯+PA66 61g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   88.00mm*72.20mm*69.65mm BD-N55-5T-石墨烯右侧散热器-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-c412cbfc-e914-4134-b90d-cc36b1de08ad",
+          "materialNo": "ASMSJBD00114",
+          "materialName": "塑胶材料 壁灯 N55  石墨烯左侧散热器 晒纹石墨烯颜色 石墨烯+PA66 61g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   88.00mm*72.20mm*69.65mm BD-N55-5T-石墨烯左侧散热器-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-d6e3d582-aea8-44dc-bf4f-8383c4198c5c",
+      "moldNo": "XC23092",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-f6c2da2a-4ee6-44eb-8b8a-f977cb0362ff",
+          "materialNo": "ASMSJBD00117",
+          "materialName": "塑胶材料 壁灯 N55 石墨烯右散热器 晒纹石墨烯颜色 石墨烯+PA66 51.2g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 83.10mm*81.70mm*72.25mm BD-N55-5T-石墨烯右散热器-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-6718ef8b-d530-43c7-b317-8248405eb6a9",
+          "materialNo": "ASMSJBD00116",
+          "materialName": "塑胶材料 壁灯 N55 石墨烯左散热器 晒纹石墨烯颜色 石墨烯+PA66 51.2g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 83.10mm*81.70mm*72.25mm BD-N55-5T-石墨烯左散热器-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-417fefc0-6234-4a43-b21a-0a3fe4d66ca6",
+      "moldNo": "YCY23074",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-29558cb6-ffd2-4a86-beba-f7df55a32b54",
+          "materialNo": "ASMSJBD00166",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  侧边壳 晒纹黑色 ABS 13g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   69.2mm*66mm*31.7mm BD-TY-C10A-侧边壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-7959dd50-a7b5-484f-9c1e-cada8c8a7405",
+      "moldNo": "YCY23072",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-fef0ef84-f9d5-4db2-9929-89e73fb146b9",
+          "materialNo": "ASMSJBD00167",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  第六壳 晒纹黑色 ABS 12.9g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   92.2mm*60mm*31.7mm BD-TY-C10A-第六壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-293e90e7-3538-4f50-96eb-8bbf9fe5912d",
+      "moldNo": "YCY23069",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-454ede6b-c699-417c-a942-25e5a1e7eb98",
+          "materialNo": "ASMSJBD00206",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能 太阳能主壳 晒纹黑色 ABS 40g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 157mm*95mm*50mm BD-TY-C10A-太阳能主壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-9bd9d1de-30cd-45e4-b8be-5cf16c66a60d",
+      "moldNo": "YCY23068",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-d5a7f51e-eba3-44f8-89b3-4f64abeb8b90",
+          "materialNo": "ASMSJBD00205",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  中壳 晒纹黑色 ABS 28g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   100mm*72mm*56.7mm BD-TY-C10A-中壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-be5c7796-b0ef-4175-b2a7-28f709f791ca",
+      "moldNo": "YCY23067",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-074a7dcb-97e2-4e14-bea1-7bcfc66a3c39",
+          "materialNo": "ASMSJBD00162",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  转轴 晒纹黑色 ABS 4g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   37.3mm*27.3mm*19mm BD-TY-C10A-转轴-A01",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-7648767e-29df-421d-9729-a6f03d126992",
+      "moldNo": "YCY23066",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "1套模芯",
+      "items": [
+        {
+          "id": "item-18162d22-c36b-438d-8c5a-1bbedda2a474",
+          "materialNo": "ASMSJBD00164",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  支架 晒纹黑色 ABS 14.6g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   46mm*29mm*81mm BD-TY-C10A-支架-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-eb50ea31-be64-4158-a4c7-5eb927297b2c",
+          "materialNo": "ASMSJBD00165",
+          "materialName": "塑胶材料 壁灯 C10B款太阳能  支架1 晒纹黑色 ABS 15.4g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   46.00mm*29.00mm*82.20mm BD-TY-C10B-支架1-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-22c9799b-2b90-4b21-b51f-f4117c14b0c8",
+          "materialNo": "ASMSJBD00169",
+          "materialName": "塑胶材料 壁灯 C10B款太阳能  支架2 晒纹黑色 ABS 15.3g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   47mm*46mm*78mm BD-TY-C10B-支架2-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-8042f871-8fcf-4367-b555-e86bc7139f99",
+      "moldNo": "YCY23070",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-b997446f-585f-40bd-9e29-152c023b7d45",
+          "materialNo": "ASMSJBD00170",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  卡座 晒纹黑色 ABS 20g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   79mm*69.3mm*18.2mm BD-TY-C10A-卡座-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-45502d16-1144-411f-8571-79e923bcbccd",
+      "moldNo": "YCY23071",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-ce9f77dc-b5d5-42df-8888-a14598814b0f",
+          "materialNo": "ASMSJBD00161",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  左右壳 晒纹黑色 ABS 10.5g 防火HB 抗UVf1 耐温80℃  符合RoHS/REACH   66mm*62.5mm*31.70mm BD-TY-C10A-左右壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-92298d02-c281-4a48-9162-36af70f2c9ac",
+      "moldNo": "YCY23073",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-8b3c40ec-639f-4a58-9212-1ec357808068",
+          "materialNo": "ASMSJBD00171",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  左右透光罩 透明 PC 7g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   63.9mm*59.2mm*5.1mm BD-TY-C10A-左右透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-9e12c2a6-65f2-49a5-a693-cdbff9d7a2cc",
+          "materialNo": "ASMSJBD00173",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  侧边透光罩 透明 PC 8g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   66.7mm*62.7mm*5.1mm BD-TY-C10A-侧边透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e93d7538-2d18-4cba-a943-db81bef652d5",
+          "materialNo": "ASMSJBD00174",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  第六透光罩 透明 PC 9.8g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   88.8mm*57.9mm*5.1mm BD-TY-C10A-第六透光罩-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-a71de5cf-2613-4e46-b419-361dbc152faf",
+          "materialNo": "ASMSJBD00172",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  中透光罩 透明 PC 12.5g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   96.7mm*70.2mm*5.1mm BD-TY-C10A-中透光罩-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-39910036-0d42-4c82-8723-2d88aa5dec15",
+      "moldNo": "YCY23087",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-f952f3e4-f087-4acd-a3ac-5caf90a530fe",
+          "materialNo": "ASMSJFG00027",
+          "materialName": "塑胶材料 泛光灯 DB30 石墨烯外壳 晒纹石墨烯颜色 石墨烯+PA66 96.4g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 156.00mm*105.00mm*33.20mm FG-DB30-石墨烯外壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-133da242-4f84-4f23-84fe-26f7f6db8eb8",
+          "materialNo": "ASMSJFG00028",
+          "materialName": "塑胶材料 泛光灯 GB30 石墨烯外壳 晒纹石墨烯颜色 石墨烯+PA66 107.2g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 165.00mm*115.00mm*33.20mm FG-GB30-石墨烯外壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-7e11e788-1d32-4a31-a802-aceb47fdd16e",
+          "materialNo": "ASMSJFG00041",
+          "materialName": "塑胶材料 泛光灯 GB30 石墨烯外壳（WiFi款） 晒纹石墨烯颜色 石墨烯+PA66 113.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 165.00mm*115.00mm*33.20mm FG-GB30-WiFi-石墨烯外壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-8e1cd43e-9506-4e4c-989b-8d686164e92b",
+      "moldNo": "XK25007",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-1e08b24a-903e-49fc-b6a4-05f7d84c775b",
+          "materialNo": "ASMSJBD00379",
+          "materialName": "塑胶材料 壁灯 T30  左壳 喷粉黑色 石墨烯+PA66 46g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   87.20mm*68.80mm*34.50mm BD-T30-左壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-aaf4f046-e91c-47f6-80f4-7b065c18c76c",
+          "materialNo": "ASMSJBD00380",
+          "materialName": "塑胶材料 壁灯 T30  右壳 喷粉黑色 石墨烯+PA66 46g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   87.20mm*68.80mm*34.50mm BD-T30-右壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-9b73b505-a2e0-47c4-9932-3ab54e2a0f03",
+      "moldNo": "XK240903",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-29663c44-aea9-4a33-9268-47966e3720a9",
+          "materialNo": "ASMSJGY00050",
+          "materialName": "塑胶材料 人体感应头 F款 透光罩 透明 PC2407 3g 防火V0 抗UVf1 耐温120℃ 条纹 符合RoHS/REACH 36.2mm*21.7mm*17.2mm GYT-F款人体感应(带灯)-透光罩-A02",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-d56307d1-9978-467a-b3b7-e881356a7cf9",
+      "moldNo": "HX23007",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-5261d46d-9832-4389-818a-5aab60289834",
+          "materialNo": "A22TGYTBB03",
+          "materialName": "B款人体感应头 转轴2 44*31*23mm 黑色 材质PC6710 防火5VA/V0/V2 抗UV等级f1 耐温120℃ 11g 图号:GYT-B款人体感应头-转轴02-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-34d6dc76-5815-46b7-ad49-de2d21867a24",
+          "materialNo": "ASMSJGY00015",
+          "materialName": "塑胶材料 人体感应头 B款 转轴2 晒纹棕色 PC6710 11g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 44.00mm*31.00mm*23.00mm GYT-B款人体感应头-转轴02-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-e71dd38c-1f85-47dd-9d6a-2bf6675df46a",
+          "materialNo": "ASMSJGY00011",
+          "materialName": "塑胶材料 人体感应头 B款 转轴2 晒纹白色 PC6710 11g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 44.00mm*31.00mm*23.00mm GYT-B款人体感应头-转轴02-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-0a2e59c5-3dfe-44d3-8185-7eca446ceda7",
+          "materialNo": "ASMSJGY00006",
+          "materialName": "塑胶材料 人体感应头 B款 转轴2 晒纹黑色 PC6710 11g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 44.00mm*31.00mm*23.00mm GYT-B款人体感应头-转轴02-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-4665ff4f-1678-4c15-845c-77ed01767ea9",
+          "materialNo": "ASMSJGY00007",
+          "materialName": "塑胶材料 人体感应头 B款 转轴2 晒纹石墨烯颜色 PC6710 11g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 44.00mm*31.00mm*23.00mm GYT-B款人体感应头-转轴02-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-183e2fed-f451-415d-8e57-3fab3c83376b",
+          "materialNo": "ASMSJGY00054",
+          "materialName": "塑胶材料 人体感应头 B款 转轴2 晒纹灰色 PC6710 11g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 44.00mm*31.00mm*23.00mm GYT-B款人体感应头-转轴02-A02",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-23690bde-721d-437d-a58d-990251a1fe49",
+      "moldNo": "HX046",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "4个（共3款，分大孔，小孔和无孔，这里是小孔和无孔）",
+      "image": "",
+      "items": [
+        {
+          "id": "item-dcd39ef6-9467-42e9-a7b4-a68b44fbab68",
+          "materialNo": "A22B0B55A00",
+          "materialName": "常规高压塑胶底座 PC6710/Φ119.4*53.2mm/灰色/71g/符合ROHS/REACH/耐温120℃/防火V0/抗UVf1/无孔/BD-常规高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-c62ba6fb-38b3-47ee-a22f-f344da99d8ed",
+          "materialNo": "ASMSJBD00035",
+          "materialName": "塑胶材料 壁灯 A款底座  常规底座 晒纹黑色 PC6710 71g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   119.4mm*53.2mm BD-常规高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-8f1d200a-61e3-4706-82f1-343d1b330782",
+          "materialNo": "ASMSJBD00036",
+          "materialName": "塑胶材料 壁灯 A款底座  常规款底座 晒纹石墨烯颜色 PC6710 71g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   119.4mm*53.2mm BD-常规高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-8cda85b8-933c-4e14-a871-393f2db54731",
+          "materialNo": "ASMSJBD00069",
+          "materialName": "塑胶材料 壁灯 A款底座  常规款底座 晒纹白色 PC6710 71g 防火V0 抗UVf1 耐温:120℃  符合:RoHS/REACH   119.4mm*53.2mm BD-常规高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-2cf9a56d-910e-4607-8e1e-17a2e41b30f2",
+          "materialNo": "ASMSJBD00032",
+          "materialName": "塑胶材料 壁灯 A款底座  人体感应款底座（Φ12.5孔） 晒纹黑色 PC6710 71g 防火V0 抗UVf1 120℃  ROHS/REACH   119.4mm*53.2mm BD-双色高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-889b9867-2b59-4b26-99ef-dd11a9a72470",
+          "materialNo": "ASMSJBD00033",
+          "materialName": "塑胶材料 壁灯 A款底座  人体感应款底座（Φ12.5孔） 晒纹白色 PC6710 71g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   119.4mm*53.2mm BD-双色高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-da09d8c2-1709-47cd-989e-5c2f213ce661",
+          "materialNo": "ASMSJBD00034",
+          "materialName": "塑胶材料 壁灯 A款底座  人体感应款底座（Φ12.5孔） 晒纹石墨烯颜色 PC6710 71g 防火V0 抗UVf1 耐温120℃  符合RoHS/REACH   119.4mm*53.2mm BD-双色高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-5e4349fb-f51d-4934-8e88-a1dfb4a7222e",
+          "materialNo": "ASMSJBD00197",
+          "materialName": "塑胶材料 壁灯 A款底座  人体感应款底座（Φ12.5孔） 晒纹灰色 PC6710 71g 防火V0 抗UVf1 120℃  ROHS/REACH   119.4mm*53.2mm BD-双色高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-a319565d-7d5d-4f42-a1a4-91db51e51bfa",
+          "materialNo": "ASMSJBD00028",
+          "materialName": "塑胶材料 壁灯 A款底座 摄像头高压塑胶底座（Φ16.2孔） 晒纹黑色 PC6710 68.7g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*53.2mm BD-摄像头高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-dd736679-342c-45ee-8900-714101863ce8",
+          "materialNo": "ASMSJBD00029",
+          "materialName": "塑胶材料 壁灯 A款底座 摄像头高压塑胶底座（Φ16.2孔） 晒纹棕色 PC6710 68.7g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*53.2mm BD-摄像头高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f6f858a0-8a1c-41a4-a9a8-c53375bbad1a",
+          "materialNo": "ASMSJBD00030",
+          "materialName": "塑胶材料 壁灯 A款底座光感款（Φ16.2孔） 晒纹白色 PC6710 72.7g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.40mm*53.20mm BD-摄像头高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-d18fbcfb-d224-49cc-b53d-f94bda1c33ab",
+          "materialNo": "ASMSJBD00031",
+          "materialName": "塑胶材料 壁灯 底座 摄像头高压塑胶底座（Φ16.5孔） 晒纹石墨烯颜色 PC6710 71g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 119.4mm*53.2mm BD-摄像头高压塑胶底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-45e8c3c0-7a4b-4973-b8da-3d94d5b09f3f",
+          "materialNo": "ASMSJBD00311",
+          "materialName": "塑胶材料 壁灯 A款底座 光感款底座（Φ16.2孔） 晒纹灰色 PC6710 71.00g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*53.2mm BD-摄像头高压塑胶底座-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-82b70df5-e2ba-46c4-82c2-43e360d651fb",
+      "moldNo": "HX047",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "分2款（有孔4个和无孔4个）",
+      "items": [
+        {
+          "id": "item-e9f0831e-b8a6-4e40-92fc-d8159bf20433",
+          "materialNo": "ASMSJBD00037",
+          "materialName": "塑胶材料 壁灯 底盖  B款底盖 晒纹黑色 PC110 38g 防火HB  120℃  ROHS/REACH   114.4mm*25.2mm BD-B款底盖-A06",
+          "cavities": 4
+        },
+        {
+          "id": "item-8d2b2e0e-0c88-447a-b039-558eee2578aa",
+          "materialNo": "ASMSJBD00038",
+          "materialName": "塑胶材料 壁灯 底盖  B款底盖 晒纹白色 PC110 38g 防火HB  120℃  ROHS/REACH   114.4mm*25.2mm BD-B款底盖-A06",
+          "cavities": 4
+        },
+        {
+          "id": "item-ba463aa3-855b-45e5-a750-08913f4f5df8",
+          "materialNo": "ASMSJBD00039",
+          "materialName": "B款底盖无出线孔 PC-110/Φ114.4*25.2mm/黑色/37.9g/符合ROHS/REACH/耐温>110℃/防火HB/底盖自带向上标/BD-B款底盖-无出线孔-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-3aeec1a6-5758-486f-8d87-2eddc9fdfcaa",
+          "materialNo": "ASMSJBD00153",
+          "materialName": "PC-110/Φ114.4*25.2mm/白色/37.9g/符合ROHS/REACH/耐温>110℃/防火HB/底盖自带向上标/BD-B款底盖-无出线孔-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-370e789f-e45c-4cb7-bed9-aa4ad4783e2e",
+      "moldNo": "DS016",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-05444eaa-c193-43e8-87da-6e0888ea4524",
+          "materialNo": "ASMSJBD00044",
+          "materialName": "塑胶材料 壁灯 B55  中透光罩 透明 PC2407 26.5g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   126.6mm*84.6mm*5.8mm BD-B55-3T-中透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-37c55a9d-4629-44d8-b5e8-443cb16a90bc",
+      "moldNo": "HX22004",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-5b20863e-d2c7-4d64-b6e6-50ade14bbd08",
+          "materialNo": "ASMSJBD00044",
+          "materialName": "塑胶材料 壁灯 B55  中透光罩 透明 PC2407 26.5g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   126.6mm*84.6mm*5.8mm BD-B55-3T-中透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-4d83354f-2154-4fc3-87b5-a5e38992b159",
+          "materialNo": "ASMSJBD00043",
+          "materialName": "塑胶材料 壁灯 B55  左右透光罩 透明 PC2407 12g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   78.7mm*63.1mm*5.8mm BD-B55-3T-左右透光罩-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-a09b40e2-3e1d-4404-8451-d20f27e4b27b",
+          "materialNo": "A22T0GYTB01",
+          "materialName": "人体感应头-上壳",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-11f47c1c-970e-4a14-ad36-8dc82d247126",
+      "moldNo": "SS20009",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "image": "",
+      "items": [
+        {
+          "id": "item-6da66edb-9f4d-41ec-a909-6dd8a565c71e",
+          "materialNo": "A22F0D30W01",
+          "materialName": "D30散热塑胶壳 FG72 D30泛光灯/PA66改性导热塑料/184*125*29.5mm/白色/外壳主体150g/内置0.8mm厚铝板/FG-D30-XX-散热塑胶壳-A02/装支架+组合螺丝+四方螺母",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-94c7d292-a58f-42eb-a295-f931d9e18559",
+      "moldNo": "19074",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "image": "",
+      "items": [
+        {
+          "id": "item-d3fbf965-538f-4c11-9bf4-b56dfff8b38c",
+          "materialNo": "A22F0E10B00",
+          "materialName": "E10线性WIFI款泛光灯 散热塑胶壳 PA66改性导热塑料/133*90*34.5mm/黑色/外壳主体84g/内置0.5mm厚铝板/FG-E10-WIFI-散热塑胶壳-A02/装支架+组合螺丝+四方螺母",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-03aa57a7-2830-4652-9894-175673ae0bf0",
+      "moldNo": "SW20045",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "image": "",
+      "items": [
+        {
+          "id": "item-efd86231-621a-473e-87a6-30d37de0fb4b",
+          "materialNo": "A2118012537",
+          "materialName": "E30散热塑胶壳  E30泛光灯 PA66改性导热塑料/180*125*37mm/黑色/重量155g/内置0.8mm厚铝板/FG-E30-RGB-散热塑胶壳-A02+四方螺母",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-fdfcfc59-0ebb-48aa-b34d-f957d202a8ba",
+      "moldNo": "HP2018119",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "image": "",
+      "items": [
+        {
+          "id": "item-c53bb386-18cb-49ba-80c6-4c6996fef705",
+          "materialNo": "A2124416132",
+          "materialName": "E50散热塑胶壳  50W塑包铝泛光灯/内置0.8mm厚铝板/ PA66改性导热塑料/244*161*32mm/282g/黑色/FG-E50-XX-散热塑胶壳-A01+四方螺母",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-4aa2d658-825c-4a3b-b735-0d8004c8ce03",
+      "moldNo": "SW20038",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-de1854f3-c96c-4ab8-a4b3-8db6e0cb9e9f",
+          "materialNo": "A2116110532",
+          "materialName": "塑包铝/161*105*32mm/黑色/符合ROHS/REACH/耐温120C/GZ-C80-XX-外壳2-A02",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-264f1346-4ad9-4532-a0cb-cf6b41d93e47",
+      "moldNo": "SW20037",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "image": "",
+      "items": [
+        {
+          "id": "item-c440bd8e-c47e-4cfe-a123-21aa9bf55be8",
+          "materialNo": "A21G0C80B01",
+          "materialName": "外壳 塑包铝/241*162*32mm/黑色/268g/符合ROHS/REACH/耐温120℃/GZ-C80-XX-外壳-A04 （带支架+四方螺母+内六角组合螺丝）",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-2ffcfcc3-9594-4e3d-b520-983365a7b500",
+      "moldNo": "SW20036",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3eff17a0-761d-44ed-a8ff-7440b5de6001",
+          "materialNo": "A2117811429",
+          "materialName": "100W车库灯散热塑胶壳 PA66改性导热塑料/178.6*114*29mm/重量118g/内置0.8mm铝板/白色/CK-B100-XX-散热塑胶壳-A01",
+          "cavities": 999
+        }
+      ]
+    },
+    {
+      "id": "mold-3c7d6cd0-cbad-424d-88fd-4fdbdaf233d2",
+      "moldNo": "HX22020",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3abc888d-442d-4f24-a13d-6b3a9f9d300a",
+          "materialNo": "A200M101131",
+          "materialName": "PA66/11.3*9.8*11.5mm/黑色/1g/符合ROHS/REACH/抗UV f1/耐温85℃/防火HB/M10塑胶螺丝-A01",
+          "cavities": 8
+        },
+        {
+          "id": "item-d63dac84-5a98-4db0-abf4-3896eac46aeb",
+          "materialNo": "ASMLS0000157",
+          "materialName": "塑胶材料 泛光灯 防水固线螺丝 M14*15 FG-防水固线螺丝-A01 PA66 白色   符合RoHS/REACH",
+          "cavities": 8
+        },
+        {
+          "id": "item-3d287180-c1bf-4e78-a557-50b4f0098f92",
+          "materialNo": "ASMSJFG00025",
+          "materialName": "塑胶材料 泛光灯   防水固线螺丝 M14*15 黑色 PA66      符合RoHS/REACH      FG-防水固线螺丝-A01",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-4d38c58e-147e-4bd1-8214-c8d5fe822139",
+      "moldNo": "HX22019",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-4c8cb3b5-caa2-4cdb-ab36-7cf06789bac6",
+          "materialNo": "ASMSJFG00043",
+          "materialName": "ABS-PA757 黑色 两个出线孔132*83*28.5mm/39g/耐温>80℃/防火HB/抗UV等级f1/图号FG-H05-塑胶壳两孔-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-59fc2410-64ab-41fd-874a-5028d4df716c",
+          "materialNo": "ASMSJFG00044",
+          "materialName": "ABS-PA757/黑色 1个出线孔132*83*28.5mm/38g/耐温>80℃/防火HB/抗UV等级f1/FG-H05-塑胶壳1孔-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-0be42616-f655-47c7-bc7d-e096afad2cb2",
+      "moldNo": "HX22018",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-d8340c6a-0fbe-41ad-b1ba-041808495ab7",
+          "materialNo": "ASMSJFG00002",
+          "materialName": "G20泛光灯 125.5*79.6*5mm /边界晒纹不丝印/材质透明Covestro PC 2407/抗UV等级f1/94V-0/耐温>120℃/贴保护膜/25g /图号FG-G20-透明PC透光罩-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-c0438a44-5c0d-4510-9caf-b6759ad47d1f",
+          "materialNo": "ASMSJFG00003",
+          "materialName": "塑胶材料 泛光灯 G20 PC透光罩 乳白 PC2407 25g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 124.4mm*78.4mm*5mm FG-G20-乳白PC透光罩-A03",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-f5f77cc2-5a8b-4e57-ba53-ff548492d6d0",
+      "moldNo": "HX22005",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-66ce0327-0b18-4fd1-bfef-8640f38ec1f5",
+          "materialNo": "ASMSJBD00177",
+          "materialName": "塑胶材料 壁灯 A款人体感应头  底壳 黑色 奇美ABS-PA-757 17g 防火V0 抗UVf1 耐温85℃     75mm*53mm*44.3mm GYT-人体感应头-YK-底壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-4a7a7cf6-ce76-4f07-9882-ba3d964c314d",
+      "moldNo": "XK25005",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-a20f4212-fcb8-4373-942a-b0bfab81e1de",
+          "materialNo": "ASMSJCT00035",
+          "materialName": "塑胶材料 长条灯 B48S 外壳 晒纹黑色 石墨烯+PA66 278g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 400mm*94mm*32mm CT-B48S-外壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-f7bcf5da-b106-44ce-9e6c-cfe956440b86",
+      "moldNo": "XC25035",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-273594eb-34b3-4d4e-aee9-9448492acb67",
+          "materialNo": "ASMSJBD00370",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  中透光罩 透明 PC 12.5g 防火HB 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH   96.70mm*70.20mm*5.10mm BD-TY-C10A-中透光罩-B01",
+          "cavities": 1
+        },
+        {
+          "id": "item-c4dd688a-16e5-4315-be41-c2a2a2ab0edf",
+          "materialNo": "ASMSJBD00371",
+          "materialName": "塑胶材料 壁灯 C05A款太阳能  左右透光罩 透明 PC 10g 防火HB 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH   86.70mm*66.70mm*5.10mm BD-TY-C05A-左右透光罩-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f055f666-8fb8-41f3-afba-1f3b0847442b",
+          "materialNo": "ASMSJBD00372",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  第六透光罩 透明 PC 9g 防火HB 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH   88.80mm*57.90mm*5.10mm BD-TY-C10A-第六透光罩-B01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-4066762e-a1eb-407f-8d28-634d39c86a42",
+      "moldNo": "XC25049",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-9a6cbcc0-fcd4-4a67-94ca-91a740bed5ee",
+          "materialNo": "ASMSJBD00174",
+          "materialName": "塑胶材料 壁灯 C10A款太阳能  第六透光罩 透明 PC 9.8g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH   88.8mm*57.9mm*5.1mm BD-TY-C10A-第六透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-e3536dd8-7c46-4c4d-9b10-9dc957efa185",
+      "moldNo": "XK25008",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-59abeaef-a620-4bde-b0f0-2301ec686a34",
+          "materialNo": "ASMSJBD00378",
+          "materialName": "塑胶材料 壁灯 T30  中壳 喷粉黑色 石墨烯+PA66 78.5g 防火5VA 抗UVf1 耐温120℃  符合RoHS/REACH   124.00mm*73.00mm*53.90mm BD-T30-中壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-d4cbb826-a229-44a7-87a1-2d3f36a05d2b",
+      "moldNo": "SW20034",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-21d15b00-56c9-4637-87ed-9252ae48e051",
+          "materialNo": "A2195584561",
+          "materialName": "车库灯接线盒 材料PC-110/防火UL94-V0/耐温>110度/95.5*84*56mm/白色/CK-B100-XX-接线盒-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-94793a99-0ab8-4c83-b85c-889977ed6477",
+      "moldNo": "SW20035",
+      "supplierId": "sup-41850f41-adc5-4362-b8ff-0d65e98b1972",
+      "status": "停用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-0bec39d1-bc2a-43a4-b9c9-bcb115329d8f",
+          "materialNo": "A2170508100",
+          "materialName": "塑胶灯头 材料PC-110/防火UL94-V0/耐温>110度/φ70*50.8mm /白色/CK-B100-XX-塑胶灯头-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-f4a90975-f6fb-49cf-ba21-e9366f375d9d",
+      "moldNo": "XJR-24013",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-04dd5ce1-8864-4d3b-a2d1-2f2228dbd8c0",
+          "materialNo": "ASMSJBD00220",
+          "materialName": "塑胶材料 壁灯 转轴 转轴6 晒纹黑色 PC 沙特LS2-111 7.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 46.50mm*34.80mm*20.00mm BD-转轴6-A01",
+          "cavities": 8
+        },
+        {
+          "id": "item-c7dd1f3d-ab2b-4c64-b960-7ae2c40ff261",
+          "materialNo": "ASMSJBD00215",
+          "materialName": "塑胶材料 壁灯 转轴 转轴6 晒纹白色 PC 沙特LS2-111 7.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 46.50mm*34.80mm*20.00mm BD-转轴6-A01",
+          "cavities": 8
+        },
+        {
+          "id": "item-92b0cf7a-a6ae-404b-b5d2-5d5220c5fa00",
+          "materialNo": "ASMSJBD00369",
+          "materialName": "塑胶材料 壁灯 转轴 转轴6 晒纹灰色 PC 沙特LS2-111 7.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 46.50mm*34.80mm*20.00mm BD-转轴6-A01",
+          "cavities": 8
+        },
+        {
+          "id": "item-aeb3dba5-74f8-47f6-86f2-544292ff6e70",
+          "materialNo": "ASMSJBD00272",
+          "materialName": "塑胶材料 壁灯 转轴 转轴6 晒纹棕色 PC 沙特LS2-111 7.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 46.50mm*34.80mm*20.00mm BD-转轴6-A01",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-5a6a8e08-b840-40d2-95e2-b5800e6e93d2",
+      "moldNo": "HX22007",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-a63e4835-5a4e-4fa3-a416-f6161f205728",
+          "materialNo": "ASMSJBD00004",
+          "materialName": "塑胶材料 壁灯 转轴 转轴5 晒纹黑色 PC 沙特LS2-111 13g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 53mm*35.3mm*23mm BD-转轴5-A03",
+          "cavities": 4
+        },
+        {
+          "id": "item-ecaa3c70-30db-418e-b593-470a8f1f4586",
+          "materialNo": "ASMSJBD00005",
+          "materialName": "塑胶材料 壁灯 转轴 转轴5 晒纹棕色 PC 沙特LS2-111 13g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 53mm*35.3mm*23mm BD-转轴5-A03",
+          "cavities": 4
+        },
+        {
+          "id": "item-44be17a5-b72a-4366-b827-fabcdd151ca1",
+          "materialNo": "ASMSJBD00006",
+          "materialName": "塑胶材料 壁灯 转轴 转轴5 晒纹灰色 PC 沙特LS2-111 13g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 53mm*35.3mm*23mm BD-转轴5-A03",
+          "cavities": 4
+        },
+        {
+          "id": "item-40b045d3-818b-49df-a74d-db51b8340268",
+          "materialNo": "ASMSJBD00007",
+          "materialName": "塑胶材料 壁灯 转轴 转轴5 晒纹石墨烯颜色 PC 沙特LS2-111 13g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 53mm*35.3mm*23mm BD-转轴5-A03",
+          "cavities": 4
+        },
+        {
+          "id": "item-ed812c94-3a0b-408e-9eb6-bb124e2354af",
+          "materialNo": "ASMSJBD00008",
+          "materialName": "塑胶材料 壁灯 转轴 转轴5 晒纹白色 PC 沙特LS2-111 13g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 53mm*35.3mm*23mm BD-转轴5-A03",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-d612907d-b69c-40f8-a4a1-446e84ddd09f",
+      "moldNo": "HX045",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-48969ee6-f784-4a48-878b-00128aa351cc",
+          "materialNo": "ASMSJBD00009",
+          "materialName": "塑胶材料 壁灯 转轴 转轴1 晒纹黑色 PC 沙特LS2-111 14g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 49.5mm*25mm*23mm BD-D100-转轴1-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-e148ccd3-50c4-4539-bb71-0315e1d3eeb3",
+          "materialNo": "ASMSJBD00010",
+          "materialName": "塑胶材料 壁灯 转轴 转轴1 晒纹石墨烯颜色 PC 沙特LS2-111 14g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 49.5mm*25mm*23mm BD-D100-转轴1-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-5e911f27-2bf2-4189-abab-e3f342ad0a03",
+          "materialNo": "ASMSJBD00011",
+          "materialName": "塑胶材料 壁灯 转轴 转轴1 晒纹白色 PC 沙特LS2-111 14g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 49.5mm*25mm*23mm BD-D100-转轴1-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-fe9a975b-a342-4c70-8d40-baef4769104a",
+          "materialNo": "ASMSJBD00012",
+          "materialName": "塑胶材料 壁灯 转轴 转轴1 晒纹灰色 PC 沙特LS2-111 14g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 49.5mm*25mm*23mm BD-D100-转轴1-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-fe51dec0-9f7c-46f6-b1a8-7d3bbb168408",
+          "materialNo": "ASMSJBD00013",
+          "materialName": "塑胶材料 壁灯 转轴 转轴1 晒纹棕色 PC 沙特LS2-111 14g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 49.5mm*25mm*23mm BD-D100-转轴1-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-49e6f5ed-d655-42a5-9dc4-9c7ca148a63b",
+          "materialNo": "ASMSJBD00014",
+          "materialName": "塑胶材料 壁灯 转轴 转轴2 晒纹黑色 PC 沙特LS2-111 13.3g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 52mm*27.5mm*23mm BD-D100-转轴2-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-6bcbaf88-c1a8-48d7-8e8a-307d3618c92e",
+          "materialNo": "ASMSJBD00015",
+          "materialName": "塑胶材料 壁灯 转轴 转轴2 晒纹白色 PC 沙特LS2-111 13.3g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 52mm*27.5mm*23mm BD-D100-转轴2-A05",
+          "cavities": 8
+        },
+        {
+          "id": "item-e5cf91b3-8930-43bd-8c2b-6f63ee97dfb8",
+          "materialNo": "ASMSJBD00016",
+          "materialName": "塑胶材料 壁灯 转轴 转轴2 晒纹棕色 PC 沙特LS2-111 13.3g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 52mm*27.5mm*23mm BD-D100-转轴2-A05",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-0dc3f142-dcad-45cf-ab16-4da525fd6b20",
+      "moldNo": "XC22095",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-c7f1a02c-33f1-4247-aa80-9ef8b7588e80",
+          "materialNo": "ASMSJBD00026",
+          "materialName": "塑胶材料 壁灯 转轴 摄像头转轴 晒纹黑色 PC 沙特LS2-111 9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 34.6mm*27.2mm*29.5mm BD-SXT-转轴-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-a7bbc38b-b2fd-4185-b689-06033b392946",
+          "materialNo": "ASMSJBD00584",
+          "materialName": "塑胶材料 壁灯 转轴 摄像头转轴 晒纹棕色 PC 沙特LS2-111 9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 34.6mm*27.2mm*29.5mm BD-SXT-转轴-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-9ceb802d-4603-4e28-92cd-987f06dded2d",
+          "materialNo": "ASMSJBD00629",
+          "materialName": "塑胶材料 壁灯 转轴 摄像头转轴 晒纹石墨烯颜色 PC 沙特LS2-111 9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 34.6mm*27.2mm*29.5mm BD-SXT-转轴-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-35a23055-939b-4406-a5c2-a5da4bebf6e0",
+          "materialNo": "ASMSJBD00027",
+          "materialName": "塑胶材料 壁灯 转轴 摄像头转轴 晒纹白色 PC 沙特LS2-111 9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 34.6mm*27.2mm*29.5mm BD-SXT-转轴-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-5067a113-8c69-4262-964e-212e30102153",
+      "moldNo": "XJR-23021",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-af522b0f-bc08-418b-b571-ba28588eb114",
+          "materialNo": "ASMSJBD00138",
+          "materialName": "塑胶材料 壁灯 底座 E款底座常规款 晒纹黑色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E底座-常规款-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-336d784c-07f7-4859-b5ea-5240c2526bdf",
+          "materialNo": "ASMSJBD00158",
+          "materialName": "塑胶材料 壁灯 底座 E底座常规款 晒纹白色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E底座-常规款-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-f3671041-7cc0-4a5e-a45a-be32a7710f1a",
+          "materialNo": "ASMSJBD00159",
+          "materialName": "塑胶材料 壁灯 底座 E底座常规款 晒纹棕色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E底座-常规款-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-b967269b-a0a3-42d7-98ec-8b9cdc7d0e94",
+          "materialNo": "ASMSJBD00160",
+          "materialName": "塑胶材料 壁灯 底座 E底座常规款 晒纹灰色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E底座-常规款-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-cfbae6ea-e21f-45e9-b10b-94942a2ce2c3",
+          "materialNo": "ASMSJBD00178",
+          "materialName": "塑胶材料 壁灯 底座 E款底座常规款 晒纹石墨烯颜色 PC6710 51.00g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 110.00mm*0.00mm*71.50mm BD-E底座-常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-b8926c3f-73b8-44d8-90f5-94bc14b83fca",
+          "materialNo": "ASMSJBD00135",
+          "materialName": "塑胶材料 壁灯 底座 E款底座光感款（Φ16.2孔） 晒纹黑色 PC6710 51g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*71.5mm BD-E底座-光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e9b4c888-5f10-4f7e-b79e-e39ee4d070b1",
+          "materialNo": "ASMSJBD00136",
+          "materialName": "塑胶材料 壁灯 底座 E款底座光感款（Φ16.2孔） 晒纹棕色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-光感款-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-df33cc73-cecc-43cd-a1cf-ef327998c64d",
+          "materialNo": "ASMSJBD00112",
+          "materialName": "塑胶材料 壁灯 底座 E款底座光感款（Φ16.2孔） 晒纹白色 PC6710 53.4g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-光感款-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-da6b90d7-5809-4fd2-9c4c-1b1eb08b9f76",
+          "materialNo": "ASMSJBD00249",
+          "materialName": "塑胶材料 壁灯 底座 E款底座光感款（Φ16.2孔） 晒纹灰色 PC6710 51g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 110.00mm*0.00mm*71.50mm BD-E底座-光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-469f0353-d7d6-42e8-8f3b-e4c862cd3c3e",
+          "materialNo": "ASMSJBD00139",
+          "materialName": "塑胶材料 壁灯 底座 E款底座光感款（Φ16.2孔） 晒纹石墨烯颜色 PC6710 51.00g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110.00mm*71.50mm BD-E底座-光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f79bbed1-7460-4298-975e-9c558b4b509d",
+          "materialNo": "ASMSJBD00607",
+          "materialName": "塑胶材料 壁灯 E款底座 带插头按键光感款 晒纹黑色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E-带插头按键光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-3b4b512a-c1e8-4bb7-a52a-90831aeecac5",
+          "materialNo": "ASMSJBD00606",
+          "materialName": "塑胶材料 壁灯 E款底座 带插头按键光感款 晒纹白色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E-带插头按键光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f38fcde9-f381-4f9a-ac73-73cfb0dd769c",
+          "materialNo": "ASMSJBD00605",
+          "materialName": "塑胶材料 壁灯 E款底座 带插头按键常规款 晒纹黑色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E-带插头按键常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-bd899d26-4dde-49fe-ba53-ebe9713bfeed",
+          "materialNo": "ASMSJBD00604",
+          "materialName": "塑胶材料 壁灯 E款底座 带插头按键常规款 晒纹白色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E-带插头按键常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-b3a95972-90e1-4aa0-a76a-173241d915c2",
+          "materialNo": "ASMSJBD00603",
+          "materialName": "塑胶材料 壁灯 E款底座 光感按键款 晒纹黑色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-光感按键款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-42297df0-b9ad-4fa3-882e-9cd59ddeda5e",
+          "materialNo": "ASMSJBD00602",
+          "materialName": "塑胶材料 壁灯 E款底座 光感按键款 晒纹白色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-光感按键款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-6230efc0-52c6-4ff1-824c-a7aef7e80801",
+          "materialNo": "ASMSJBD00601",
+          "materialName": "塑胶材料 壁灯 E款底座 常规按键款 晒纹白色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-常规按键款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-4b54db42-7299-4156-88b9-11cddc97b3a5",
+          "materialNo": "ASMSJBD00560",
+          "materialName": "塑胶材料 壁灯 E款底座 常规按键款 晒纹黑色 PC6710 54g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-常规按键款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-46203b7b-afcf-4a6d-890e-13ae7535c149",
+          "materialNo": "ASMSJBD00275",
+          "materialName": "塑胶材料 壁灯 底座 E款底座带插头光感款（Φ16.2孔） 晒纹棕色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.50mm BD-E款底座-带插头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e50a135e-6640-4bea-a899-ce5ac07e6c72",
+          "materialNo": "ASMSJBD00273",
+          "materialName": "塑胶材料 壁灯 底座 E款底座带插头光感款（Φ16.2孔） 晒纹白色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.50mm BD-E款底座-带插头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f6f915bc-35f0-4c9b-a8db-7ddd45f1ddfa",
+          "materialNo": "ASMSJBD00250",
+          "materialName": "塑胶材料 壁灯 底座 E款底座带插头光感款（Φ16.2孔） 晒纹黑色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-带插头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-1a19fa55-6d96-4b47-b7a8-bcd1a942b584",
+          "materialNo": "ASMSJBD00251",
+          "materialName": "塑胶材料 壁灯 底座 E款底座带插头常规款 晒纹黑色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.5mm BD-E款底座-带插头常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-aa851652-19e2-498e-8385-71f2dbc99e0e",
+          "materialNo": "ASMSJBD00281",
+          "materialName": "塑胶材料 壁灯 底座 E款底座带插头常规款 晒纹白色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.50mm BD-E款底座-带插头常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-be592c13-cec1-4b98-a925-8eae22e7c6c8",
+          "materialNo": "ASMSJBD00282",
+          "materialName": "塑胶材料 壁灯 底座 E款底座带插头常规款 晒纹棕色 PC6710 53.5g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*73.50mm BD-E款底座-带插头常规款-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-219f98c7-6eab-43a4-bec8-3f17d9dabd3c",
+      "moldNo": "XJR-23022",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-07c37a42-fe6f-4261-b3b3-899946ff84b6",
+          "materialNo": "ASMSJBD00113",
+          "materialName": "塑胶材料 壁灯 底盖 E款底盖 晒纹白色 PC110 24g 防火HB 耐温120℃ 符合RoHS/REACH 105.50mm*0.00mm*12.50mm BD-E款底盖-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-602d8751-07ef-421a-89f7-f48ba158f88f",
+          "materialNo": "ASMSJBD00137",
+          "materialName": "塑胶材料 壁灯 底盖 E款底盖 晒纹黑色 PC110 24g 防火HB 耐温120℃ 符合RoHS/REACH 105.50mm*0.00mm*12.50mm BD-E款底盖-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-39be07b5-2bd3-45e4-8d14-820b9028f712",
+          "materialNo": "ASMSJBD00274",
+          "materialName": "塑胶材料 壁灯 底盖 E款底盖(无出线孔) 晒纹白色 PC110 24g 防火HB 耐温120℃ 符合RoHS/REACH ∅105.5mm*12.50mm BD-E款底盖(无出线孔)-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-5cac67ef-2336-433f-8b26-9eef76b5d827",
+          "materialNo": "ASMSJBD00252",
+          "materialName": "塑胶材料 壁灯 底盖 E款底盖(无出线孔) 晒纹黑色 PC110 24g 防火HB 耐温120℃ 符合RoHS/REACH 105.50mm*0.00mm*12.50mm BD-E款底盖(无出线孔)-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-16156532-70cb-442a-b85a-e363327d472e",
+      "moldNo": "XJR-24018",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-f712e1ec-de73-42b2-8516-d452dff5d37f",
+          "materialNo": "ASMSJCT00027",
+          "materialName": "塑胶材料 长条灯 F15 上盖 晒纹黑色 PC 4g 防火HB 耐温120℃ 符合RoHS/REACH 31.80mm*31.20mm*11.50mm CT-F15-上盖-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e957354c-41ba-4223-b955-fdb37557b248",
+          "materialNo": "ASMSJCT00029",
+          "materialName": "塑胶材料 长条灯 F15 底座 晒纹黑色 PC 21g 防火HB 耐温120℃ 符合RoHS/REACH 100.50mm*88.00mm*22.00mm CT-F15-底座-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-bd223657-43b7-446e-9d3c-67ff1c7a3deb",
+      "moldNo": "XJR-24019",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-42662fa6-3f54-411c-b783-90614b9bec0f",
+          "materialNo": "ASMSJCT00028",
+          "materialName": "塑胶材料 长条灯 F15 下盖 晒纹黑色 PC 14g 防火HB 耐温120℃ 符合RoHS/REACH 32.60mm*32.00mm*40.00mm CT-F15-下盖-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-d8fa174e-3e0c-4a03-90e3-30dfbbcd68f7",
+      "moldNo": "XJR-24014",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-028d006e-72fe-4aa3-8c23-4e3a31d48bc5",
+          "materialNo": "ASMSJGY00024",
+          "materialName": "塑胶材料 人体感应头 C款 C款人体感应头-PIR支架 晒纹黑色 ABS 1g 防火HB 抗UVf1 85℃ 符合RoHS/REACH ∅12mm*6.3mm GYT-C款人体感应头-PIR支架-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-9c78b77f-dfc9-4224-a757-5cb25c67bdfd",
+          "materialNo": "ASMSJGY00067",
+          "materialName": "塑胶材料 人体感应头 E款 下壳 晒纹白色 ABS 9g 防火HB 抗UVf1 85℃ 符合RoHS/REACH 46.5mm*44.1mm*29.3mm GYT-E款人体感应-下壳-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-fdf53207-e77e-45fc-8cbd-a8c78ffdfb2e",
+          "materialNo": "ASMSJGY00034",
+          "materialName": "塑胶材料 人体感应头 E款 下壳 晒纹黑色 ABS 9g 防火5VA 抗UVf1 85℃ 符合RoHS/REACH 46.5mm*44.1mm*29.3mm GYT-E款人体感应-下壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-b04e710c-7131-4da7-ab73-943913994380",
+      "moldNo": "XJR-23020",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-13b4169c-3b8a-485c-896f-06bc346be9b6",
+          "materialNo": "ASMSJFG00024",
+          "materialName": "DB100 PC透光罩（带遥控窗口） 透明 PC2407 85.3g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 224mm*144mm*6.5mm FG-DB100-YK-透光罩-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-f793ed5b-75fd-4250-a73e-d4e4ffe3f019",
+          "materialNo": "ASMSJFG00026",
+          "materialName": "塑胶材料 泛光灯 DB100 PC透光罩 透明 PC2407 85.4g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 224mm*144mm*6.5mm FG-DB100-透光罩-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-065fc963-8111-4a14-b303-68825878bd82",
+          "materialNo": "A22FD100T03",
+          "materialName": "透光罩 Covestro PC/224*144*6.5mm/85.4g/耐温>110℃/防火/抗UV等级f1/贴保护膜/FG-DB100-透光罩-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-3607a5ca-dce2-441a-b889-d3fff76f8488",
+      "moldNo": "XJR-23023",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-abdb608a-8a08-4a91-a676-1f7628d0ba92",
+          "materialNo": "ASMSJFG00032",
+          "materialName": "塑胶材料 泛光灯 I30 PC透光罩 透明 PC2407 31.6g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 151.3mm*101.3mm*5.5mm FG-I30-透光罩-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-10f97c32-f442-419b-af6d-a544d2d1cfce",
+          "materialNo": "ASMSJFG00033",
+          "materialName": "泛光灯 I30 PC透光罩（带遥控窗口） 透明 PC2407 31.7g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 151.3mm*101.3mm*5.5mm FG-I30-YK-透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-e5ad5303-90f2-4318-ad2d-670604948c58",
+      "moldNo": "XJR-24015",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-ee2aa490-2e07-44a0-b912-154aa566fbd0",
+          "materialNo": "ASMSJBD00236",
+          "materialName": "塑胶材料 壁灯 D05A款太阳能 中透光罩 透明 PC 13.5g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 96.70mm*70.20mm*5.10mm BD-TY-D05A-中透光罩-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-6240fb9b-9765-4cc2-919b-30dc4c9dd5fa",
+          "materialNo": "ASMSJBD00527",
+          "materialName": "塑胶材料 壁灯 D05A款太阳能 中透光罩 透明+标识面晒粗纹 PC 14g 防火HB 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 96.70mm*69.9mm*5.2mm BD-TY-D05A-中透光罩-B01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-f2c477d9-e09b-404b-b540-570dede8f6ad",
+      "moldNo": "XJR-24027",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-66732cc6-8a56-414a-82a5-7adf081fd71c",
+          "materialNo": "ASMSJBD00259",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 中壳 晒纹黑色 ABS 33g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 123.00mm*101.3mm*57.8mm BD-TY-E05S-中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-43ccfac4-0421-4686-a69a-ab90e84cae9f",
+          "materialNo": "ASMSJBD00278",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 中壳(∅4.3孔) 晒纹黑色 ABS 32.2g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 123.00mm*101.3mm*57.8mm BD-TY-E05S-中壳(∅4.3孔)-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-9ff91322-aa56-4329-ac0f-28ffa19d1d9d",
+          "materialNo": "ASMSJBD00279",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 两轴中壳 晒纹黑色 ABS 33g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 123.00mm*101.3mm*57.8mm BD-TY-E05S-两轴中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-b0192e81-e4ec-4387-8fa1-6be69a1e86f4",
+          "materialNo": "ASMSJBD00280",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 两轴中壳(∅4.3孔) 晒纹黑色 ABS 30g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 123.00mm*101.3mm*57.8mm BD-TY-E05S-两轴中壳(∅4.3孔)-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-6432caa9-06ec-4d3a-871c-f0e1674c2818",
+      "moldNo": "XJR-24028",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-17aad63e-7c0d-4dee-95b6-d6f5a733f636",
+          "materialNo": "ASMSJBD00260",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 转轴10 晒纹黑色 ABS 3.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 22mm*23mm*37mm BD-TY-E05S-转轴10-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e417e2b8-0a44-4ecc-8e4d-5a839b752479",
+          "materialNo": "ASMSJBD00263",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 第六壳 晒纹黑色 ABS 11g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 85.4mm*69.9mm*29.7mm BD-TY-E05S-第六壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-ecee10e1-8c3e-44b2-8cb7-74f900ca5451",
+      "moldNo": "XJR-24030",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-0b97a274-e648-4279-a9b4-51753186781a",
+          "materialNo": "ASMSJBD00261",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 盖子 晒纹黑色 ABS 3.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅31.6mm*13.3mm BD-TY-E05S-盖子-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-de5bbafd-6573-4475-9fd9-468d323c3d87",
+      "moldNo": "XJR-24029",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-ec5019d0-1d3c-40f0-ba13-641d31d9fa05",
+          "materialNo": "ASMSJBD00264",
+          "materialName": "塑胶材料 壁灯 E05S款太阳能 第六透光罩 透明 PC 7g 防火HB 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH 82.1mm*56.2mm*5.10mm BD-TY-E05S-第六透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-45205eaf-fd38-4839-85c1-729194bd11f4",
+      "moldNo": "XJR-25004",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-f02cddc8-81ee-4f9e-adf4-8aa2c5e4aea1",
+          "materialNo": "ASMSJBD00344",
+          "materialName": "塑胶材料 壁灯 S65 左透光罩 透明 PC2407 12.7g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 70.80mm*69.70mm*25.90mm BD-S65-3T-左透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-64094585-1b45-4150-9184-96a510b57b0c",
+          "materialNo": "ASMSJBD00345",
+          "materialName": "塑胶材料 壁灯 S65 中透光罩 透明 PC2407 27.6g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 117.70mm*92.40mm*28.80mm BD-S65-3T-中透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-8946bce4-91cc-4209-b8cd-c768cf689268",
+          "materialNo": "ASMSJBD00346",
+          "materialName": "塑胶材料 壁灯 S65 右透光罩 透明 PC2407 12.7g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 70.80mm*69.70mm*25.90mm BD-S65-3T-右透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-869847a3-2080-48e4-98c7-de5a64f064b5",
+          "materialNo": "ASMSJBD00355",
+          "materialName": "塑胶材料 壁灯 S65 左透光罩2 透明 PC2407 12.3g 防火V0 抗UVf1 耐温120℃ 光面 符合RoHS/REACH 70.70mm*69.60mm*25.90mm BD-S65-3T-左透光罩2-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-9236ff3b-70f2-4c26-baed-40a451eda809",
+          "materialNo": "ASMSJBD00356",
+          "materialName": "塑胶材料 壁灯 S65 中透光罩2 透明 PC2407 26.5g 防火V0 抗UVf1 耐温120℃ 光面 符合RoHS/REACH 117.70mm*92.40mm*28.80mm BD-S65-3T-中透光罩2-B01",
+          "cavities": 2
+        },
+        {
+          "id": "item-a7f09d87-b68a-4521-bf53-c4c3d1b3e6cd",
+          "materialNo": "ASMSJBD00357",
+          "materialName": "塑胶材料 壁灯 S65 右透光罩2 透明 PC2407 12.3g 防火V0 抗UVf1 耐温120℃ 光面 符合RoHS/REACH 70.70mm*69.60mm*25.90mm BD-S65-3T-右透光罩2-B01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-58ab2dd9-177a-4669-a846-e22ace39024e",
+      "moldNo": "XJR-25010",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-ecb31b86-84cc-4f97-8163-569772a299e1",
+          "materialNo": "ASMSJBD00358",
+          "materialName": "塑胶材料 壁灯 N80 左透光罩 透明 PC2407 18g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 80.20mm*79.70mm*26.50mm BD-N80-3T-左透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-31fcbba3-4970-4f03-a539-1b8faa09b318",
+          "materialNo": "ASMSJBD00359",
+          "materialName": "塑胶材料 壁灯 N80 中透光罩 透明 PC2407 35.4g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 132.00mm*98.40mm*30.20mm BD-N80-3T-中透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f15d06e9-016f-45fc-b31e-9677c69cb82d",
+          "materialNo": "ASMSJBD00360",
+          "materialName": "塑胶材料 壁灯 N80 右透光罩 透明 PC2407 18g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 80.20mm*79.70mm*26.50mm BD-N80-3T-右透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-e249b76b-de3f-4905-bd3d-1323b3648005",
+      "moldNo": "XJR-25028",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-6ccdc7b0-5067-4771-91fa-f03951cd39a6",
+          "materialNo": "ASMSJBD00381",
+          "materialName": "塑胶材料 壁灯 T30 中透光罩 透明 PC2407 15g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 96.70mm*69.90mm*9.40mm BD-T30-中透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-18cd1947-71a4-45c3-bb79-a746981e6aac",
+          "materialNo": "ASMSJBD00382",
+          "materialName": "塑胶材料 壁灯 T30 左透光罩 透明 PC2407 9.5g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 72.50mm*64.40mm*9.40mm BD-T30-左透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-2bb96b53-a439-4042-8546-60a0ef1e90c3",
+          "materialNo": "ASMSJBD00383",
+          "materialName": "塑胶材料 壁灯 T30 右透光罩 透明 PC2407 9.5g 防火V0 抗UVf1 耐温120℃ 方格纹 符合RoHS/REACH 72.50mm*64.40mm*9.40mm BD-T30-右透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-09948d01-c835-4838-b239-439ce76f049a",
+      "moldNo": "XJR-25032",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-6f69e341-bea8-4913-b866-f318dc6a771d",
+          "materialNo": "ASMSJCG00049",
+          "materialName": "塑胶材料 橱柜灯 C05 右端盖（带遥控） 晒纹白色+全遮光 ABS 3.7g 防火HB 85℃ 符合RoHS/REACH 40.50mm*39.50mm*9.50mm CG-C05-YK-右端盖-B01",
+          "cavities": 4
+        },
+        {
+          "id": "item-f4c4b076-6152-4043-842f-3d40ead16b73",
+          "materialNo": "ASMSJCG00033",
+          "materialName": "塑胶材料 橱柜灯 C05 右端盖 晒纹白色+全遮光 ABS 3.8g 防火HB 85℃ 符合RoHS/REACH 40.50mm*39.50mm*9.50mm CG-C05-右端盖-B01",
+          "cavities": 4
+        },
+        {
+          "id": "item-35a6e13e-3e00-4e5b-b01c-d4fe80c9e2fb",
+          "materialNo": "ASMSJCG00032",
+          "materialName": "塑胶材料 橱柜灯 C05 左端盖 晒纹白色+全遮光 ABS 1g 防火HB 85℃ 符合RoHS/REACH 39.50mm*9.50mm*5.50mm CG-C05-左端盖-B03",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-fb61c740-8c18-4dce-8db7-a3a50f6daaa5",
+      "moldNo": "XJR-25031",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-219d17a1-01c7-40eb-8858-41004676c4af",
+          "materialNo": "ASMSJCG00034",
+          "materialName": "塑胶材料 橱柜灯 C05 按键 晒纹白色+全遮光 ABS 0.2g 防火HB 85℃ 符合RoHS/REACH 16.00mm*5.10mm*4.00mm CG-C05-按键-B01",
+          "cavities": 6
+        }
+      ]
+    },
+    {
+      "id": "mold-cbf88603-e597-493d-9193-58d8f173c2dc",
+      "moldNo": "XJR-25035",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-81f379a6-f196-47f2-92eb-0f651827fbf9",
+          "materialNo": "ASMSJBD00371",
+          "materialName": "塑胶材料 壁灯 C05A款太阳能 左右透光罩 透明 PC 10g 防火HB 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 86.70mm*66.70mm*5.10mm BD-TY-C05A-左右透光罩-B01",
+          "cavities": 4
+        },
+        {
+          "id": "item-ae8adc45-317d-4505-bc64-800d9d20fa1e",
+          "materialNo": "ASMSJBD00405",
+          "materialName": "塑胶材料 壁灯 C45 中透光罩 透明 PC2407 23.3g 防火V0 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 105.90mm*98.00mm*18.70mm BD-C45-3T-中透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-637576fd-0d82-42b4-89f9-f8e19d8dffc2",
+      "moldNo": "XJR-25040",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-6c3a29d8-83e3-4b1d-9b74-2ccc4d3ab12a",
+          "materialNo": "ASMSJBD00400",
+          "materialName": "塑胶材料 壁灯 H款底座 透光罩 晒纹+透明 PC2407 3g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 78.00mm*12.00mm*8.40mm BD-H款底座-透光罩-A0",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-06e79dba-7c07-4363-806f-bae93b3ecc96",
+      "moldNo": "XJR-25039",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-e92980e2-6aae-43ec-a7e0-05e4f08b3fe1",
+          "materialNo": "ASMSJBD00401",
+          "materialName": "塑胶材料 壁灯 H款底座 底盖 晒纹黑色+全遮光 PC110 28.5g 防火HB 耐温120℃ 符合RoHS/REACH 文字标识符号抛光亮面 108.00mm*106.70mm*15mm BD-H款底座-底盖-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-10d47045-f569-42ff-9f0c-e167c29016fe",
+          "materialNo": "ASMSJBD00542",
+          "materialName": "塑胶材料 壁灯 H款底座 无孔底盖 晒粗纹哑黑色+全遮光 PC110 28g 防火HB 耐温120℃ 符合RoHS/REACH 文字标识符号抛光亮面 108mm*106.7mm*15mm BD-H款底座-无孔底盖-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-670fa00d-4f8a-4637-b4b0-f99022360215",
+          "materialNo": "ASMSJBD00543",
+          "materialName": "塑胶材料 壁灯 H款底座 无孔底盖 晒粗纹哑白色+全遮光 PC110 28g 防火HB 耐温120℃ 符合RoHS/REACH 文字标识符号抛光亮面 108mm*106.7mm*15mm BD-H款底座-无孔底盖-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-c6df5615-8281-40c6-a813-a3848f84f93f",
+      "moldNo": "XJR-25038",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-66023458-8b1e-4cd7-80be-98c52040f458",
+          "materialNo": "ASMSJBD00540",
+          "materialName": "塑胶材料 壁灯 H款底座 插头光感款 晒粗纹哑黑色 PC6710 70g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 111mm*111mm*78.5mm BD-H款底座-插头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-b7430a49-8982-421d-942f-d00c70980eac",
+          "materialNo": "ASMSJBD00541",
+          "materialName": "塑胶材料 壁灯 H款底座 插头光感款 晒粗纹哑白色 PC6710 70g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 111mm*111mm*78.5mm BD-H款底座-插头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-a0bb7a42-fee8-44bc-a84b-8ee610785acf",
+          "materialNo": "ASMSJBD00402",
+          "materialName": "塑胶材料 壁灯 H款底座 常规款底座 晒纹黑色+全遮光 PC6710 69g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 111.00mm*111.00mm*78.50mm BD-H款底座-常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-319afe63-cfa4-48f3-8646-1a55dab872a9",
+          "materialNo": "ASMSJBD00406",
+          "materialName": "塑胶材料 壁灯 H款底座 光感款底座 晒粗纹哑黑色+全遮光 PC6710 69g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH 111.00mm*111.00mm*78.50mm BD-H款底座-光感款-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-39d9c27a-310b-400c-b3c5-756bb80a798c",
+      "moldNo": "XJR-25062",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3af2b8ef-11b3-463a-a31f-7fdb9f7a539b",
+          "materialNo": "ASMSJBD00407",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 中壳 晒粗纹哑黑色+全遮光 ABS 28g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 标识符号抛光亮面 118mm*84.00mm*54.3mm TY-G05A-中壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-54a05c5c-d158-41d3-bd96-e02989af8d9a",
+          "materialNo": "ASMSJBD00632",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 中壳 晒粗纹哑白色+全遮光 ABS 27.7g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 标识符号抛光亮面 118mm*84mm*54.3mm BD-TY-G05A-中壳-A02",
+          "cavities": 1
+        },
+        {
+          "id": "item-e0f0c2c1-43eb-4e4d-b2e7-72fb8cb8497d",
+          "materialNo": "ASMSJBD00511",
+          "materialName": "塑胶材料 壁灯 G05B款太阳能 中壳 晒粗纹哑黑色+全遮光 ABS 28g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 标识符号抛光亮面 118.00mm*84.00mm*54mm BD-TY-G05B-中壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-5a5c762b-a53e-4a05-8436-fc8e3e9707a4",
+      "moldNo": "XJR-25063",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-4a7d75d7-8af2-492d-9000-b99c22dabde0",
+          "materialNo": "ASMSJBD00409",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 左壳 晒粗纹哑黑色+全遮光 ABS 12g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 86.5mm*60.5mm*29.2mm TY-G05A-左壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-0415d160-3d54-4f73-86b2-fc7dc4b3d53a",
+          "materialNo": "ASMSJBD00630",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 左壳 晒粗纹哑白色+全遮光 ABS 11.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 86.5mm*60.5mm*29.2mm TY-G05A-左壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-eaef0f62-4f8d-46a2-9635-52b13667b272",
+          "materialNo": "ASMSJBD00411",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 右壳 晒粗纹哑黑色+全遮光 ABS 12g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 86.5mm*60.5mm*29.2mm TY-G05A-右壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-97d80d60-97e9-4266-8d78-1a334c3ff840",
+          "materialNo": "ASMSJBD00631",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 右壳 晒粗纹哑白色+全遮光 ABS 11.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 86.5mm*60.5mm*29.2mm BD-TY-G05A-右壳-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-d147d8b7-1b3e-42b4-8c89-efde74e54255",
+      "moldNo": "XJR-25064",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-7f1bd5a6-0f4d-432d-9b1a-9c88b1a165d4",
+          "materialNo": "ASMSJBD00408",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 中透光罩 晒粗纹+透明 PC 13g 防火V0 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 85.50mm*82.00mm*14.50mm TY-G05A-中透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-1681e7b0-f750-4d0b-b1a6-92b8c9a8c169",
+      "moldNo": "XJR-25065",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-cf65a1a7-2599-4a63-8a80-d3cdba337dc9",
+          "materialNo": "ASMSJBD00410",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 左透光罩 晒粗纹+透明 PC 8g 防火V0 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 75.60mm*57.00mm*11.00mm TY-G05A-左透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-d46ea62e-7fdc-4852-ad35-f8d347dfd32b",
+          "materialNo": "ASMSJBD00412",
+          "materialName": "塑胶材料 壁灯 G05A款太阳能 右透光罩 晒粗纹+透明 PC 8g 防火V0 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 75.60mm*57.00mm*11.00mm TY-G05A-右透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-4f251cbd-7d7a-4f08-93ad-ef58bc112a79",
+      "moldNo": "XJR-25061",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-14df6a30-49dc-45c3-88a3-3665d6fe8eed",
+          "materialNo": "ASMSJBD00480",
+          "materialName": "塑胶材料 壁灯 A款底座 双头光感款 晒粗纹哑白色 PC6710 67g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*50.70mm BD-A款底座_双头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-a93a902a-67d5-48ff-a2b2-1168d837d4b1",
+          "materialNo": "ASMSJBD00448",
+          "materialName": "塑胶材料 壁灯 A款底座 双头光感款 晒粗纹哑黑色 PC6710 67g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*50.70mm BD-A款底座_双头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f91bb261-f3cc-4608-9907-410fe4f95f9b",
+          "materialNo": "ASMSJBD00508",
+          "materialName": "塑胶材料 壁灯 A款底座 双头光感款(ABS） 晒粗纹哑白色+全遮光 ABS 60g 防火V2 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*50.70mm BD-A款底座_双头光感款(ABS)-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f74c9a6e-983b-4134-affe-5f9456aac659",
+          "materialNo": "ASMSJBD00509",
+          "materialName": "塑胶材料 壁灯 A款底座 双头光感款(ABS） 晒粗纹哑黑色+全遮光 ABS 60g 防火V2 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.4mm*50.70mm BD-A款底座_双头光感款(ABS)-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-691ee808-78fe-4760-82d7-4234696779da",
+          "materialNo": "ASMSJBD00470",
+          "materialName": "塑胶材料 壁灯 J款底座 双头光感电池款 晒粗纹黑色 ABS 58.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*∅50.7mm BD-J款底座_双头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-09edda47-0b9c-4318-b4fc-d5c8fdf5162a",
+          "materialNo": "ASMSJBD00611",
+          "materialName": "塑胶材料 壁灯 J款底座 双头按键光感款 晒粗纹黑色 ABS 58.50g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*50.7mm BD-J款底座_双头按键光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-c3df9d4c-6d4f-41fb-868c-b128d27722bd",
+          "materialNo": "ASMSJBD00619",
+          "materialName": "塑胶材料 壁灯 J款底座 双头按键光感款 晒粗纹白色 ABS 58.50g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*50.7mm BD-J款底座_双头按键光感款-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-a8e4ae8b-7866-4a69-bf40-db69db5bf277",
+      "moldNo": "XJR-25066",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-8ed52dd5-665b-44b3-a998-6c7c43b34c84",
+          "materialNo": "ASMSJBD00442",
+          "materialName": "塑胶材料 壁灯 C05C款太阳能 太阳能主壳 晒粗纹哑黑色 ABS 23.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 121.50mm*83.50mm*43.50mm BD-TY-C05C-主壳-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-975c8fce-493a-4b71-8aaf-73f63f207e2f",
+          "materialNo": "ASMSJBD00580",
+          "materialName": "塑胶材料 壁灯 C05C款太阳能 太阳能主壳 晒粗纹哑白色 ABS 23.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 121.5mm*83.5mm*43.5mm BD-TY-C05C-主壳-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-da80a38c-856c-4f33-9607-d8a6a79ea326",
+      "moldNo": "XJR-25067",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3f64812d-a584-45b6-9a81-cc737bf0ab83",
+          "materialNo": "ASMSJBD00441",
+          "materialName": "塑胶材料 壁灯 C05B款太阳能 中壳 晒粗纹哑黑色+全遮光 ABS 28g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 标识符号抛光亮面 123.00mm*72.00mm*54.40mm BD-TY-C05B-中壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-9dd34701-47c2-42cd-bb06-be3cfbc2fdc6",
+      "moldNo": "XJR-25068",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-2f7c7d00-fbe8-497e-a6b8-7397f39b2282",
+          "materialNo": "ASMSJBD00439",
+          "materialName": "塑胶材料 壁灯 C05B款太阳能 中透光罩 边界粗纹+透明 PC 12g 防火HB 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 96.50mm*69.20mm*6.20mm BD-TY-C05B-中透光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-4131a4d6-8df9-4a60-8d69-3899b753060c",
+          "materialNo": "ASMSJBD00440",
+          "materialName": "塑胶材料 壁灯 C05B款太阳能 透镜座 晒纹雾面 PC 1g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 27.00mm*27.00mm*3.30mm BD-TY-C05B-透镜座-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-82b47b81-bd51-49e2-b2ca-dc63128cdb88",
+      "moldNo": "XJR-25069",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3e9c5e1d-4dca-4211-acc2-a03017aabd65",
+          "materialNo": "ASMSJBD00579",
+          "materialName": "塑胶材料 壁灯 C05B款太阳能 卡座 晒粗纹哑白色 ABS 10g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 60mm*43mm*11.7mm BD-TY-C05B-卡座-A01",
+          "cavities": 8
+        },
+        {
+          "id": "item-0d0a7225-885e-47a9-951b-05d22593cbcf",
+          "materialNo": "ASMSJBD00438",
+          "materialName": "塑胶材料 壁灯 C05B款太阳能 卡座 晒粗纹哑黑色 ABS 10g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 60.00mm*43.00mm*11.70mm BD-TY-C05B-卡座-A01",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-dc9ac6cd-202f-489d-a4d1-1edbcfa27901",
+      "moldNo": "XJR-25052",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-7ec1b886-0582-4c4b-acca-7871cce7e321",
+          "materialNo": "ASMSJBD00418",
+          "materialName": "塑胶材料 壁灯 V100 外壳 晒纹黑色 ABS 29.5g 防火HB 耐温80℃ 符合RoHS/REACH ∅54mm*97.5mm BD-V100-2T-外壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-be7df5f2-c360-432d-9444-7498094cd988",
+          "materialNo": "ASMSJBD00432",
+          "materialName": "塑胶材料 壁灯 V100 外壳 晒纹白色 ABS 29.5g 防火HB 耐温80℃ 符合RoHS/REACH ∅54mm*97.5mm BD-V100-2T-外壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-3cc08dbb-48af-46ce-9ca3-5c7aab8f156e",
+      "moldNo": "XJR-25053",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-2f546977-303a-40c1-8d45-0b60b38311d7",
+          "materialNo": "ASMSJBD00417",
+          "materialName": "塑胶材料 壁灯 I款底座 双头常规款 晒纹黑色 PC6710 52.2g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*37mm BD-I-底座-双头-常规款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-132e182d-811e-45ac-ae13-df0df166bdc5",
+          "materialNo": "ASMSJBD00431",
+          "materialName": "塑胶材料 壁灯 I款底座 双头常规款 晒纹白色 PC6710 52.2g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*37mm BD-I-底座-双头-常规款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-2d78b688-9833-4b43-a904-686fbebb8da2",
+          "materialNo": "ASMSJBD00433",
+          "materialName": "塑胶材料 壁灯 I款底座 双头光感款 晒纹黑色 PC6710 51.9g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*37mm BD-I-底座-双头-光感款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-fc8b1c97-2545-4650-89fd-59b74a414f11",
+          "materialNo": "ASMSJBD00434",
+          "materialName": "塑胶材料 壁灯 I款底座 双头光感款 晒纹白色 PC6710 51.9g 防火5VA 抗UVf1 耐温120℃ 符合RoHS/REACH ∅110mm*37mm BD-I-底座-双头-光感款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-3e800777-f110-4f44-8861-5255c4739d4e",
+          "materialNo": "ASMSJBD00430",
+          "materialName": "塑胶材料 壁灯 转轴 转轴11 晒纹白色 PC 沙特LS2-111 7.7g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 23mm*22.5mm*45.5mm BD-转轴11-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-e610841a-8ccf-40a2-be9d-1f4c1ab6ffcd",
+          "materialNo": "ASMSJBD00416",
+          "materialName": "塑胶材料 壁灯 转轴 转轴11 晒纹黑色 PC 沙特LS2-111 7.7g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 23mm*22.5mm*45.5mm BD-转轴11-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-65235687-09d0-4b1e-94fa-e105e3fa7dc4",
+          "materialNo": "ASMSJBD00459",
+          "materialName": "塑胶材料 壁灯 转轴11 限位圈 晒纹黑色 PC 沙特LS2-111 0.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅25mm*3.3mm BD-转轴11-限位圈-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-32eda5b0-be7d-4a66-b2a7-9161842c0a58",
+          "materialNo": "ASMSJBD00450",
+          "materialName": "塑胶材料 壁灯 转轴11 限位圈 晒纹白色 PC 沙特LS2-111 0.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅25mm*3.3mm BD-转轴11-限位圈-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-d9db6c1a-4f0b-41e4-a825-33892a5fff97",
+      "moldNo": "XJR-25054",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-99cdb64d-c750-4c07-aa39-bf26c65e5eb9",
+          "materialNo": "ASMSJBD00449",
+          "materialName": "塑胶材料 壁灯 转轴11 手拧螺母 M18牙距1.0 晒纹白色 PC 沙特LS2-111 2.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅29.8mm*7mm BD-转轴11-手拧螺母-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-8982b8f8-1ddf-478f-80d9-d77b50a42847",
+          "materialNo": "ASMSJBD00654",
+          "materialName": "塑胶材料 壁灯 转轴11 手拧螺母 M18牙距1.0 晒纹石墨烯颜色 PC 沙特LS2-111 2.90g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅29.8mm*7.00mm BD-转轴11-手拧螺母-A02",
+          "cavities": 4
+        },
+        {
+          "id": "item-d1000637-55cf-4637-8ad8-1c2ee0eb87be",
+          "materialNo": "ASMSJBD00458",
+          "materialName": "塑胶材料 壁灯 转轴11 手拧螺母 M18牙距1.0 晒纹黑色 PC 沙特LS2-111 2.9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅29.8mm*7.00mm BD-转轴11-手拧螺母-A02",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-30e18aff-a0a5-46b8-8bcd-0930a8d9c9e5",
+      "moldNo": "XJR-25080",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-fd3fc6b0-efa9-41e8-986e-fdc7a57a3e58",
+          "materialNo": "ASMSJBD00457",
+          "materialName": "塑胶材料 壁灯 SXBD-TY_太阳能摄像头壁灯 5W太阳能主壳 晒粗纹哑白色 ABS 65g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 204.70mm*140.70mm*38.30mm 5W太阳能主壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-0ed9ba68-ce3c-45e7-869f-ab1dde0eff87",
+          "materialNo": "ASMSJBD00668",
+          "materialName": "塑胶材料 壁灯 SXBD-TY_太阳能摄像头壁灯 5W太阳能主壳 晒粗纹哑棕色 ABS 65.4g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 204.7mm*140.7mm*38.3mm 5W太阳能主壳-A02",
+          "cavities": 1
+        },
+        {
+          "id": "item-481b2fee-fc05-400e-80da-062ce3160f33",
+          "materialNo": "ASMSJBD00672",
+          "materialName": "塑胶材料 壁灯 SXBD-TY_太阳能摄像头壁灯 5W太阳能主壳 晒粗纹哑石墨烯颜色 ABS 65.4g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 204.7mm*140.7mm*38.3mm 5W太阳能主壳-A02",
+          "cavities": 1
+        },
+        {
+          "id": "item-f89be5f1-8b56-4aec-a9d8-2237fdd74cc3",
+          "materialNo": "ASMSJBD00451",
+          "materialName": "塑胶材料 壁灯 SXBD-TY_太阳能摄像头壁灯 5W太阳能主壳 晒粗纹哑黑色 ABS 65g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 204.7mm*140.7mm*38.3mm 5W太阳能主壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-1c6d7732-4ae4-4cda-9236-390c7426a19e",
+      "moldNo": "XJR-25081",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-efe3b7d7-286d-4981-8c07-71b8dfcc3a3c",
+          "materialNo": "ASMSJSXT0018",
+          "materialName": "塑胶材料 摄像头 G12摄像头 支架 晒纹黑色 PC 沙特LS2-111 8.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 41.7mm*35mm*25mm G12摄像头支架-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-5332c336-f8d9-41ba-adad-e25b958311fc",
+          "materialNo": "ASMSJSXT0027",
+          "materialName": "塑胶材料 摄像头 G12摄像头 支架 晒纹白色 PC 沙特LS2-111 8.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 41.70mm*35.00mm*25.00mm G12摄像头支架-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-2ed5fa85-d9a7-4561-b1e8-6d41637dea9b",
+          "materialNo": "ASMSJSXT0015",
+          "materialName": "塑胶材料 摄像头 L3摄像头 支架盖 晒哑纹黑色 PC6710 1g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 31mm*16mm*7.3mm L3摄像头支架盖-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-0c28addb-de60-4905-ae23-78f11649bced",
+          "materialNo": "ASMSJSXT0017",
+          "materialName": "胶材料 摄像头 L3摄像头 支架盖 晒哑纹白色 PC6710 1g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 31mm*16mm*7.3mm L3摄像头支架盖-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-1fdb4f36-384a-4b0f-9550-b02644cd2afc",
+          "materialNo": "ASMSJSXT0016",
+          "materialName": "塑胶材料 摄像头 L3摄像头 支架 晒哑纹白色 PC6710 11.5g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 70.80mm*36.20mm*20.00mm L3摄像头支架-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-1e9d0db0-a942-4508-a527-64ed7d53dd0a",
+          "materialNo": "ASMSJSXT0014",
+          "materialName": "塑胶材料 摄像头 L3摄像头 支架 晒哑纹黑色 PC6710 11g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 70.80mm*36.20mm*20.00mm L3摄像头支架-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-004b95b9-c1f1-4706-9a3e-d2c1b58011af",
+      "moldNo": "XJR-25083",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-c33f7c4c-96bc-4fcd-bba0-260bfe5a6d96",
+          "materialNo": "ASMSJBD00456",
+          "materialName": "塑胶材料 壁灯 A款底座_太阳能款 太阳能摄像款(∅16.2） 晒纹白色+全遮光 ABS 62g 防火V2 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*53.40mm BD-太阳能摄像头款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-8e36ff34-b846-4a26-9820-7a3b069a50eb",
+          "materialNo": "ASMSJBD00652",
+          "materialName": "塑胶材料 壁灯 A款底座 单头按键电池款(ABS) 晒粗纹哑黑色 ABS 62g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*50.7mm BD-A款底座_单头按键电池款(ABS)-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-1c2a54b6-53d0-4ec3-9ae1-ff64c3685c37",
+          "materialNo": "ASMSJBD00671",
+          "materialName": "塑胶材料 壁灯 A款底座 单头按键电池款(ABS) 晒粗纹石墨烯颜色 ABS 62g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*50.7mm BD-A款底座_单头按键电池款(ABS)-A0",
+          "cavities": 2
+        },
+        {
+          "id": "item-fe361925-9855-46fc-b6f6-9c79db13ba05",
+          "materialNo": "ASMSJBD00665",
+          "materialName": "塑胶材料 壁灯 A款底座 单头按键电池款(ABS) 晒粗纹哑棕色 ABS 62g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*50.7mm BD-A款底座_单头按键电池款(ABS)-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-6760b2b8-bb43-4dc0-8ca2-0d2d850fac63",
+          "materialNo": "ASMSJBD00664",
+          "materialName": "塑胶材料 壁灯 A款底座 单头按键电池款(ABS) 晒粗纹哑白色 ABS 62g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅119.4mm*50.7mm BD-A款底座_单头按键电池款(ABS)-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-8adb867b-1ef7-4253-b5d6-b6622cfd3091",
+      "moldNo": "2021-035",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3873eb88-3b10-4b44-848a-ba6738687b21",
+          "materialNo": "ASMSJBD00669",
+          "materialName": "塑胶材料 壁灯 DA分体太阳能 SR塑胶支架 晒纹棕色 PC110 28.4g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 80.00mm*40.00mm*80.00mm BD-TYDA02-FT-SR塑胶支架-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-335ede66-7a45-404d-9869-9c7d6bb13cab",
+          "materialNo": "ASMSJBD00673",
+          "materialName": "塑胶材料 壁灯 DA分体太阳能 SR塑胶支架 晒纹石墨烯颜色 PC110 28.4g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 80.00mm*40.00mm*80.00mm BD-TYDA02-FT-SR塑胶支架-A01",
+          "cavities": 4
+        },
+        {
+          "id": "item-8f253e74-fc93-4aab-b45c-b44fcb3cf0f3",
+          "materialNo": "ASMSJBD00474",
+          "materialName": "塑胶材料 壁灯 DA分体太阳能 SR塑胶支架 晒纹白色 PC110 29g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 80.00mm*40.00mm*80.00mm BD-TYDA02-FT-SR塑胶支架-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-4c64d069-261b-40e9-af8c-53ebb4a5d354",
+      "moldNo": "XJR-250100",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-3a44a3df-6ece-43ec-8280-0d30c279dd74",
+          "materialNo": "ASMSJBD00460",
+          "materialName": "塑胶材料 壁灯 WS-BDA03 后盖板 晒纹黑色 PC6710 32g 防火V0 120° 符合RoHS/REACH 103.60mm*103.60mm*11.00mm BD-A03-后盖板-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-64d7e52e-4e66-48d1-8c0e-a5ef75fabce9",
+          "materialNo": "ASMSJBD00461",
+          "materialName": "塑胶材料 壁灯 WS-BDA03 挂板 晒纹黑色 PC6710 4.54g 防火V0 120° 符合RoHS/REACH 60.30mm*25.30mm*4.20mm BD-A03-挂板-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-9af46693-9d61-4a2e-bfed-a232335d0668",
+      "moldNo": "XJR-250103",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-0b4a6f83-6c2c-4f2e-8b39-caa701b08f00",
+          "materialNo": "ASMSJBD00471",
+          "materialName": "塑胶材料 壁灯 J款底座 C号电池仓 晒粗纹黑色 ABS 29.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅107mm*27.70mm BD-J款底座_电池仓-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-7b21115b-77e0-4424-9dd0-e129309102fd",
+          "materialNo": "ASMSJBD00610",
+          "materialName": "塑胶材料 壁灯 J款底座 C号有孔电池盖 晒粗纹黑色 ABS 34.00g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅116.2mm*22.5mm BD-J款底座_有孔后盖(D9)-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-feb61e61-5883-46e6-b590-01e603dd3a87",
+          "materialNo": "ASMSJBD00472",
+          "materialName": "塑胶材料 壁灯 J款底座 C号电池盖 晒粗纹黑色 ABS 33.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅116.2mm*22.50mm BD-J款底座_后盖(无孔)-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-fd1c8e4a-d57f-40cf-8c16-858756e074ed",
+          "materialNo": "ASMSJBD00620",
+          "materialName": "塑胶材料 壁灯 J款底座 C号有孔电池盖 晒粗纹白色 ABS 34.00g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅116.2mm*22.5mm BD-J款底座_有孔后盖(D9)-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-a8dbc6eb-1848-443d-a943-38fc98d16331",
+          "materialNo": "ASMSJBD00666",
+          "materialName": "塑胶材料 壁灯 J款底座 C号有孔电池盖 晒粗纹棕色 ABS 34.00g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH ∅116.2mm*22.5mm BD-J款底座_有孔后盖(D9)-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-32f75d96-80ec-424d-b414-cac7212d7a8f",
+          "materialNo": "ASMPJ0000175",
+          "materialName": "塑胶材料 壁灯 J款底座 夹子 黑色+晒粗纹 ABS 26g 防火HB 抗UVf1 符合RoHS/REACH 90.00mm*40.00mm*20.20mm BD-J款底座_夹子-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-be654b0d-aa7d-4b45-b79d-d9f649827df5",
+      "moldNo": "XJR-250104",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-40c5e022-09d9-49ca-9a3a-8bd829bbc070",
+          "materialNo": "ASMSJBD00624",
+          "materialName": "塑胶材料 壁灯 J款底座 卡座 晒粗纹白色 ABS 30g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 92.2mm*81.2mm*20.8mm BD-J款底座_卡座-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-5dc8600f-0025-4870-a3dd-d12aef57afc2",
+          "materialNo": "ASMSJBD00667",
+          "materialName": "塑胶材料 壁灯 J款底座 卡座 晒粗纹棕色 ABS 30.00g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 92.20mm*81.20mm*20.80mm BD-J款底座_卡座-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-aaed7692-7b44-4a55-b5e2-7eb1ccb14911",
+          "materialNo": "ASMSJBD00473",
+          "materialName": "塑胶材料 壁灯 J款底座 卡座 晒粗纹黑色 ABS 30g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 92.20mm*81.20mm*20.80mm BD-J款底座_卡座-A0",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-5f749bc2-180c-4cc5-8a74-03bea49999f9",
+      "moldNo": "XJR-250102",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-47f7b66e-734d-4fa2-94fa-657c7542fd37",
+          "materialNo": "ASMSJBD00510",
+          "materialName": "塑胶材料 壁灯 M款底座 双头常规款 晒纹黑色 PC6710 67g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.3mm*76mm BD-M款底座_双头常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-36efbb24-da37-45d9-b211-1e560cb48db8",
+          "materialNo": "ASMSJBD00518",
+          "materialName": "塑胶材料 壁灯 M款底座 双头光感款 晒纹黑色 PC6710 67g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.3mm*76.00mm BD-M款底座_双头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-f7ffa024-5381-41be-a1a6-ea6753b79f0a",
+          "materialNo": "ASMSJBD00530",
+          "materialName": "塑胶材料 壁灯 M款底座 双头光感款 晒纹石墨烯颜色 PC6710 67g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.3mm*76.00mm BD-M款底座_双头光感款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-29b6e83d-9c8a-4048-bef0-9a532a3a4bcf",
+          "materialNo": "ASMSJBD00531",
+          "materialName": "塑胶材料 壁灯 M款底座 双头常规款 晒纹白色 PC6710 67g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.3mm*76.00mm BD-M款底座_双头常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-aa00f578-2a04-47f2-a2cd-12b6f8951c6c",
+          "materialNo": "ASMSJBD00637",
+          "materialName": "塑胶材料 壁灯 M款底座 双头光感款（abs） 晒纹白色 ABS 56.4g 防火V2 抗UVf1 耐温120℃ 符合RoHS/REACH 119.30mm*76.00mm BD-M款底座_双头光感款（ABS)-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-f4ec04aa-c15e-4d53-99af-94f37452c5b1",
+          "materialNo": "ASMSJBD00532",
+          "materialName": "塑胶材料 壁灯 M款底座 双头常规款 晒纹石墨烯颜色 PC6710 67g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.3mm*76.00mm BD-M款底座_双头常规款-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-a604beb7-23cf-4e7a-b129-5d8aa8a0032e",
+          "materialNo": "ASMSJBD00519",
+          "materialName": "塑胶材料 壁灯 M款底座 双头光感款 晒纹白色 PC6710 67g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.3mm*76mm BD-M款底座_双头光感款-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-3b571170-39df-4d7a-99a5-0f74e9b2ce46",
+      "moldNo": "XJE-250113",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-4d19e917-f2d6-4173-99b8-f81cd0429c5c",
+          "materialNo": "ASMSJBD00521",
+          "materialName": "塑胶材料 壁灯 大角度转轴 转轴13 晒纹黑色 PC 沙特LS2-111 9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 34.60mm*27.20mm*28.8mm SXT-转轴13-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-8ba32b08-152b-4f33-abc4-fc6ead977de0",
+          "materialNo": "ASMSJBD00561",
+          "materialName": "塑胶材料 壁灯 大角度转轴 转轴13 晒纹白色 PC 沙特LS2-111 9g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 34.6mm*27.2mm*28.8mm SXT-转轴13-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-832b5036-fa2e-4e9b-88c3-08c23440a7eb",
+          "materialNo": "ASMSJBD00562",
+          "materialName": "塑胶材料 壁灯 大角度转轴 限位块 晒纹白色 PC 沙特LS2-111 1.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 26.6mm*22.2mm*4.5mm SXT-转轴13限位块-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-b23ec469-4559-475b-be4a-67cdf700dd10",
+          "materialNo": "ASMSJBD00522",
+          "materialName": "塑胶材料 壁灯 大角度转轴 限位块 晒纹黑色 PC 沙特LS2-111 1.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 26.6mm*22.2mm*4.5mm SXT-转轴13限位块-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-0405f4e4-b3ac-4bfe-a755-5d6ca00509bb",
+      "moldNo": "XJR-250114",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-6628663b-42de-4713-bba1-3ca92ff6b8bd",
+          "materialNo": "ASMSJBD00512",
+          "materialName": "塑胶材料 壁灯 G05B款太阳能 中透光罩 晒粗纹+透明 PC 15.5g 防火V0 抗UVf1 耐温120℃ 六边纹 符合RoHS/REACH 86.80mm*82.00mm*15.60mm BD-TY-G05B-中反光罩-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-91ab273b-df26-45f1-9407-a5fc2a72b8d0",
+          "materialNo": "ASMSJBD00513",
+          "materialName": "塑胶材料 壁灯 G05B款太阳能 透镜座 晒纹雾面 PC 1g 防火HB 抗UVf1 耐温120℃ 符合RoHS/REACH 34.3mm*31.5mm*4.5mm BD-TY-G05B-透镜座-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-d1a58f8a-6d83-4773-b8a3-d8773ee35ea8",
+      "moldNo": "XJR-26022",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-a783e0d1-3dd9-4fba-9aa2-87b6d5e61c18",
+          "materialNo": "ASMSJBD00517",
+          "materialName": "塑胶材料 壁灯 L款底座 底座 晒纹白色 PC6710 49.9g 防火V2 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120mm*20.00mm L款底座-底座-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-55afdf0d-3a75-417c-a9ef-1691c38e6f0c",
+          "materialNo": "ASMSJBD00647",
+          "materialName": "塑胶材料 壁灯 L款底座 底座 晒纹黑色 PC6710 49.90g 防火V2 抗UVf1 耐温120℃ 符合RoHS/REACH ∅120.00mm*20.00mm L款底座-底座-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-4b0af027-636c-4d0e-88aa-899740269807",
+      "moldNo": "XJR-26031",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-343d9479-1db9-4d88-a3ce-3e16297a019d",
+          "materialNo": "ASMSJBD00626",
+          "materialName": "塑胶材料 壁灯 M16螺母 对边宽19mm 厚度4mm 牙距1.0mm 黑色 POM 0.6g 防火V0 抗UVf1 耐温100℃-120℃ 符合RoHS/REACH BD-M16x1-A01",
+          "cavities": 8
+        }
+      ]
+    },
+    {
+      "id": "mold-b2d15c53-3328-4c29-826c-17abbeed7472",
+      "moldNo": "XJR-26033",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-d7d920ea-8ac3-42ab-81a0-79d59fb75c1a",
+          "materialNo": "ASMSJFG00052",
+          "materialName": "塑胶材料 泛光灯 K30泛光灯 透光罩 灯珠凸包内外透明+其它雾面纹 PC2407 52.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 166.2mm*99.2mm*13.9mm FG-K30-透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-460c2274-b986-4533-9826-cbf66230b721",
+      "moldNo": "XJR-26034",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-746a6468-2e28-4ab6-a3f4-ad448d4b4ee6",
+          "materialNo": "ASMSJFG00050",
+          "materialName": "塑胶材料 泛光灯 K50泛光灯 透光罩 灯珠凸包内外透明+其它雾面纹 PC2407 88.5g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 234.4mm*125.4mm*13.9mm FG-K50-透光罩-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-e8d910a4-974e-409b-9a27-903ecacd47a3",
+      "moldNo": "XJR-26039",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-ba072a93-3ff0-4527-974b-43b0797ef1f4",
+          "materialNo": "ASMSJSD00001",
+          "materialName": "塑胶材料 射灯 A05 透光罩 透明 PC2407 6g 防火V0 抗UVf1 耐温120℃ 边界菱纹 符合RoHS/REACH ∅62mm*5.3mm SD-A05-透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-a418b4f1-0ddc-4dcd-91eb-f63a2411ae9b",
+      "moldNo": "XJR-26041",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-d519bf0f-e483-44ec-b01f-dca7a1f51ecc",
+          "materialNo": "ASMSJBD00651",
+          "materialName": "塑胶材料 壁灯 预埋件 晒纹黑色 PC6710 55g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅132mm*15mm BD-预埋件-A01",
+          "cavities": 2
+        },
+        {
+          "id": "item-113ad3b3-06ae-461f-8c4d-bf88ed764d30",
+          "materialNo": "ASMSJBD00670",
+          "materialName": "塑胶材料 壁灯 预埋件 晒纹白色 PC6710 55g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅132mm*15mm BD-预埋件-A02",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-6ffa4cb3-9bc9-4429-8933-847fc9dbd307",
+      "moldNo": "XJR-26042",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-bd8241cb-2370-4863-9877-7df493da4186",
+          "materialNo": "JT-ASMSJBD00628-1",
+          "materialName": "塑胶材料 人体感应头 G款 D2D上壳 晒纹黑色 ABS 15g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 57.4mm*51.2mm*40.5mm GYT-G款-D2D上壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-6cd7197b-d369-4244-8fca-f211a7ba01a9",
+      "moldNo": "XJR-26043",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-efa1774f-79a9-4eef-a00d-7e489663874c",
+          "materialNo": "JT-ASMSJBD00628-2",
+          "materialName": "塑胶材料 人体感应头 G款 无孔上壳 晒纹黑色 ABS 14.5g 防火HB 抗UVf1 耐温80℃ 符合RoHS/REACH 57.4mm*48mm*40.5mm GYT-G款-无孔上壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-fa4f0aed-0307-47a4-bc3b-5f2ded0e69f4",
+      "moldNo": "XJR-26045",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-6da5935c-1d8f-4bb2-bb97-e343dad8b1cc",
+          "materialNo": "ASMSJBD00660",
+          "materialName": "塑胶材料壁灯V100B外壳晒纹石墨烯颜色PC671027.6g防火VO抗UVf1耐温120°C符合RoHS/REACH e 56mm*83.3mm BD-V100B-外壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-38361d05-0081-4ee5-a7cc-bece4d4ed973",
+          "materialNo": "ASMSJBD00659",
+          "materialName": "塑胶材料 壁灯 V100B 外壳 晒纹白色 PC6710 27.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅56mm*83.3mm BD-V100B-外壳-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-13bfd581-76ad-4371-a700-30d961018180",
+          "materialNo": "ASMSJBD00649",
+          "materialName": "塑胶材料 壁灯 V100B 外壳 晒纹黑色 PC6710 27.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅56mm*83.3mm BD-V100B-外壳-A01",
+          "cavities": 1
+        }
+      ]
+    },
+    {
+      "id": "mold-f0c78a71-05e1-4f3f-8888-79db7925f8c0",
+      "moldNo": "XJR-26046",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-54d40993-3881-443a-b00b-0da5ecc55c2d",
+          "materialNo": "ASMSJBD00658",
+          "materialName": "塑胶材料 壁灯 V100B V100B双头常规款 晒纹石墨烯颜色 PC6710  防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.30mm*48.7mm BD-A款底座-V100B双头常规款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-4bf1ea20-c4e8-409d-93fd-23355231b16b",
+          "materialNo": "ASMSJBD00653",
+          "materialName": "塑胶材料 壁灯 A款底座 V100B双头光感款 晒纹石墨烯颜色 PC6710 65.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.30mm*48.7mm BD-A款底座-V100B双头光感款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-dab2c20b-cfbb-43ee-8082-2eadddb54f94",
+          "materialNo": "ASMSJBD00657",
+          "materialName": "塑胶材料 壁灯 V100B V100B双头常规款 晒纹白色 PC6710 66g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.30mm*48.7mm BD-A款底座-V100B双头常规款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-7e61f041-a549-44f9-943b-a9bcdf630055",
+          "materialNo": "ASMSJBD00661",
+          "materialName": "塑胶材料 壁灯 A款底座 V100B双头光感款 晒纹白色 PC6710 65.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.30mm*48.7mm BD-A款底座-V100B双头光感款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-e2b3c6b5-4c2b-4ae2-972f-0c803a70a707",
+          "materialNo": "ASMSJBD00648",
+          "materialName": "塑胶材料 壁灯 A款底座 V100B双头光感款 晒纹黑色 PC6710 65.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅119.30mm*48.7mm BD-A款底座-V100B双头光感款-A01",
+          "cavities": 1
+        },
+        {
+          "id": "item-310cf169-5966-4a2a-b6d1-8e2fdbb8b82d",
+          "materialNo": "ASMSJBD00655",
+          "materialName": "塑胶材料 壁灯 转轴11 限位圈 晒纹石墨烯颜色 PC 沙特LS2-111 0.6g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH ∅25mm*3.3mm BD-转轴11-限位圈-A02",
+          "cavities": 2
+        },
+        {
+          "id": "item-178c80bc-a2bc-4a47-89d3-e4a5908fbd3a",
+          "materialNo": "ASMSJBD00656",
+          "materialName": "塑胶材料 壁灯 转轴 转轴11 晒纹石墨烯颜色 PC 沙特LS2-111 7.7g 防火V0 抗UVf1 耐温120℃ 符合RoHS/REACH 23mm*22.5mm*45.5mm BD-转轴11-A01",
+          "cavities": 2
+        }
+      ]
+    },
+    {
+      "id": "mold-da502040-6c8e-4e21-a119-512baf2b059f",
+      "moldNo": "XJR-26050",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-c6e895c0-db1c-4d5e-9549-27dafef9d0d2",
+          "materialNo": "ASMSJBD00633",
+          "materialName": "塑胶材料 太阳能 A款太阳能篱笆灯 外壳 晒纹黑色+全遮光 ABS 17.9g 防火V0 抗UVf1 符合RoHS/REACH 92.5mm*55.5mm*24.6mm TY-LB-A1-外壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-0b4d1c17-f4ea-4caf-8f77-e1505ab2e3ff",
+      "moldNo": "XJR-26051",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-1bc6c83f-7e86-47a5-8881-38e94210b9ad",
+          "materialNo": "ASMSJBD00634",
+          "materialName": "塑胶材料 太阳能 A款太阳能篱笆灯 透光罩 透明 PC2407 19.9g 防火V2 抗UVf1 符合RoHS/REACH 92.6mm*55.5mm*16.7mm TY-LB-A1-透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-ab8b4107-491a-4289-9f8e-4343f5817c05",
+      "moldNo": "XJR-26052",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-227d4f20-cb51-4b06-903b-5ecb71d5936a",
+          "materialNo": "ASMSJBD00635",
+          "materialName": "塑胶材料 太阳能 A款太阳能篱笆灯 外壳 晒纹黑色+全遮光 ABS 23.1g 防火V0 抗UVf1 符合RoHS/REACH 121.9mm*49.2mm*28.8mm TY-LB-A2-外壳-A01",
+          "cavities": 4
+        }
+      ]
+    },
+    {
+      "id": "mold-d37d366b-595d-4deb-aa8f-f1bc3715d21d",
+      "moldNo": "XJR-26053",
+      "supplierId": "sup-77e5606f-f2ed-428f-bbc0-a2fc7c1be164",
+      "status": "在用",
+      "remark": "",
+      "items": [
+        {
+          "id": "item-8e272ec2-96f9-41b0-ab1d-819957c26ade",
+          "materialNo": "ASMSJBD00636",
+          "materialName": "塑胶材料 太阳能 A款太阳能篱笆灯 透光罩 透明 PC2407 25.3g 防火V2 抗UVf1 符合RoHS/REACH 122mm*49.2mm*15.7mm TY-LB-A2-透光罩-A01",
+          "cavities": 4
+        }
+      ]
+    }
+  ],
+  "orders": []
+}
