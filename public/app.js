@@ -15,6 +15,12 @@ let currentView = 'molds';
 let editingMoldId = null;
 let editingSupplierId = null;
 
+const supabaseConfig = window.SUPABASE_CONFIG || null;
+const SUPABASE_REST_URL = supabaseConfig
+  ? `${supabaseConfig.url.replace(/\/+$/, '')}/rest/v1`
+  : '';
+let supabaseStateCache = null;
+
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
 
@@ -56,7 +62,347 @@ function statusClass(status) {
   return 'status-inactive';
 }
 
+function supabaseText(value) {
+  return String(value ?? '').trim();
+}
+
+async function supabaseFetch(pathname, options = {}) {
+  const headers = {
+    apikey: supabaseConfig.key,
+    Authorization: `Bearer ${supabaseConfig.key}`,
+    ...(options.headers || {}),
+  };
+  const response = await fetch(`${SUPABASE_REST_URL}/${pathname}`, {
+    ...options,
+    headers,
+  });
+  if (response.status === 204) {
+    return null;
+  }
+  const text = await response.text();
+  let data = null;
+  if (text) {
+    try {
+      data = JSON.parse(text);
+    } catch {
+      data = text;
+    }
+  }
+  if (!response.ok) {
+    const message =
+      typeof data === 'object' && (data?.message || data?.error)
+        ? data.message || data.error
+        : `Supabase请求失败(${response.status})`;
+    throw new Error(message);
+  }
+  return data;
+}
+
+async function fetchSupabaseState() {
+  if (supabaseStateCache) {
+    return supabaseStateCache;
+  }
+  const rows = await supabaseFetch('app_state?id=eq.main&select=data');
+  const data = rows?.[0]?.data || { suppliers: [], molds: [], orders: [] };
+  supabaseStateCache = data;
+  return data;
+}
+
+async function saveSupabaseState(data) {
+  const normalized = {
+    suppliers: Array.isArray(data.suppliers) ? data.suppliers : [],
+    molds: Array.isArray(data.molds) ? data.molds : [],
+    orders: Array.isArray(data.orders) ? data.orders : [],
+  };
+  await supabaseFetch('app_state?on_conflict=id', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Prefer: 'resolution=merge-duplicates,return=minimal',
+    },
+    body: JSON.stringify({
+      id: 'main',
+      data: normalized,
+      updated_at: new Date().toISOString(),
+    }),
+  });
+  supabaseStateCache = normalized;
+}
+
+function normalizeSupplier(input, existing = {}) {
+  const name = supabaseText(input.name);
+  if (!name) {
+    throw new Error('供应商名称不能为空');
+  }
+  return {
+    id: existing.id || `sup-${crypto.randomUUID()}`,
+    name,
+    contact: supabaseText(input.contact),
+    phone: supabaseText(input.phone),
+    remark: supabaseText(input.remark),
+  };
+}
+
+function normalizeMold(input, existing = {}) {
+  const moldNo = supabaseText(input.moldNo).toUpperCase();
+  const supplierId = supabaseText(input.supplierId);
+  const status = supabaseText(input.status) || '在用';
+  const remark = supabaseText(input.remark);
+  const rawItems = Array.isArray(input.items) ? input.items : [];
+  const items = [];
+  const seen = new Set();
+
+  for (const item of rawItems) {
+    const materialNo = supabaseText(item.materialNo).toUpperCase();
+    const materialName = supabaseText(item.materialName);
+    const cavities = Number(item.cavities);
+    if (!materialNo) {
+      continue;
+    }
+    if (seen.has(materialNo)) {
+      throw new Error(`物料 ${materialNo} 在同一套模具中重复`);
+    }
+    if (!Number.isInteger(cavities) || cavities <= 0) {
+      throw new Error(`物料 ${materialNo} 的穴数必须是正整数`);
+    }
+    seen.add(materialNo);
+    items.push({
+      id: item.id || `item-${crypto.randomUUID()}`,
+      materialNo,
+      materialName,
+      image: typeof item.image === 'string' ? item.image.trim() : '',
+      cavities,
+    });
+  }
+
+  if (!moldNo) {
+    throw new Error('模具号不能为空');
+  }
+  if (!supplierId) {
+    throw new Error('请选择供应商');
+  }
+  if (items.length === 0) {
+    throw new Error('至少需要维护一个物料');
+  }
+
+  return {
+    id: existing.id || `mold-${crypto.randomUUID()}`,
+    moldNo,
+    supplierId,
+    status,
+    remark,
+    items,
+  };
+}
+
+function normalizeOrder(input, existing = {}) {
+  const orderNo = supabaseText(input.orderNo);
+  if (!orderNo) {
+    throw new Error('订单号不能为空');
+  }
+  const rawLines = Array.isArray(input.lines) ? input.lines : [];
+  const lines = [];
+  for (const line of rawLines) {
+    const materialNo = supabaseText(line.materialNo).toUpperCase();
+    const quantity = Number(line.quantity);
+    if (!materialNo) {
+      throw new Error('订单中存在空物料号');
+    }
+    if (!Number.isInteger(quantity) || quantity <= 0) {
+      throw new Error(`物料 ${materialNo} 的数量必须是正整数`);
+    }
+    lines.push({
+      id: line.id || `line-${crypto.randomUUID()}`,
+      materialNo,
+      materialName: supabaseText(line.materialName),
+      supplierId: supabaseText(line.supplierId),
+      quantity,
+      moldId: supabaseText(line.moldId),
+      remark: supabaseText(line.remark),
+    });
+  }
+  return {
+    id: existing.id || `order-${crypto.randomUUID()}`,
+    orderNo,
+    lines,
+    status: supabaseText(input.status) || '草稿',
+    createdAt: existing.createdAt || new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+async function handleSupabaseApi(path, options = {}) {
+  const method = options.method || 'GET';
+  const rawSegments = String(path).replace(/^\/+/, '').split('/').filter(Boolean);
+  const segments = rawSegments[0] === 'api' ? rawSegments.slice(1) : rawSegments;
+  const root = segments[0];
+
+  if (root === 'state') {
+    if (method === 'GET') {
+      return fetchSupabaseState();
+    }
+    if (method === 'PUT') {
+      await saveSupabaseState(options.body || {});
+      return options.body || {};
+    }
+  }
+
+  if (root === 'suppliers') {
+    const data = await fetchSupabaseState();
+    if (method === 'GET' && segments.length === 1) {
+      return data.suppliers;
+    }
+    if (method === 'POST' && segments.length === 1) {
+      const supplier = normalizeSupplier(options.body || {});
+      data.suppliers.push(supplier);
+      await saveSupabaseState(data);
+      return supplier;
+    }
+    if (segments.length === 2) {
+      const id = decodeURIComponent(segments[1]);
+      const index = data.suppliers.findIndex((item) => item.id === id);
+      if (index === -1) {
+        throw new Error('供应商不存在');
+      }
+      if (method === 'PUT') {
+        data.suppliers[index] = normalizeSupplier(
+          options.body || {},
+          data.suppliers[index],
+        );
+        await saveSupabaseState(data);
+        return data.suppliers[index];
+      }
+      if (method === 'DELETE') {
+        const used = data.molds.some((mold) => mold.supplierId === id);
+        if (used) {
+          throw new Error('该供应商已被模具使用，不能删除');
+        }
+        data.suppliers.splice(index, 1);
+        await saveSupabaseState(data);
+        return null;
+      }
+    }
+  }
+
+  if (root === 'molds') {
+    const data = await fetchSupabaseState();
+    if (method === 'GET' && segments.length === 1) {
+      return data.molds;
+    }
+    if (method === 'POST' && segments.length === 1) {
+      const mold = normalizeMold(options.body || {});
+      if (data.molds.some((item) => item.moldNo === mold.moldNo)) {
+        throw new Error(`模具号 ${mold.moldNo} 已存在`);
+      }
+      data.molds.push(mold);
+      await saveSupabaseState(data);
+      return mold;
+    }
+    if (segments.length === 2) {
+      const id = decodeURIComponent(segments[1]);
+      const index = data.molds.findIndex((item) => item.id === id);
+      if (index === -1) {
+        throw new Error('模具不存在');
+      }
+      if (method === 'PUT') {
+        const mold = normalizeMold(options.body || {}, data.molds[index]);
+        const duplicate = data.molds.some(
+          (item) => item.moldNo === mold.moldNo && item.id !== mold.id,
+        );
+        if (duplicate) {
+          throw new Error(`模具号 ${mold.moldNo} 已存在`);
+        }
+        data.molds[index] = mold;
+        await saveSupabaseState(data);
+        return mold;
+      }
+      if (method === 'DELETE') {
+        data.molds.splice(index, 1);
+        await saveSupabaseState(data);
+        return null;
+      }
+    }
+  }
+
+  if (root === 'materials' && method === 'GET' && segments.length === 2) {
+    const materialNo = supabaseText(decodeURIComponent(segments[1])).toUpperCase();
+    const data = await fetchSupabaseState();
+    const supplierMap = new Map(
+      data.suppliers.map((item) => [item.id, item]),
+    );
+    return data.molds
+      .map((mold) => {
+        const item = mold.items.find(
+          (line) => line.materialNo === materialNo,
+        );
+        if (!item) {
+          return null;
+        }
+        const supplier = supplierMap.get(mold.supplierId) || {};
+        return {
+          moldId: mold.id,
+          moldNo: mold.moldNo,
+          supplierId: mold.supplierId,
+          supplierName: supplier.name || '',
+          supplierContact: supplier.contact || '',
+          supplierPhone: supplier.phone || '',
+          supplierRemark: supplier.remark || '',
+          status: mold.status,
+          remark: mold.remark,
+          cavities: item.cavities,
+          moldItems: mold.items,
+        };
+      })
+      .filter(Boolean);
+  }
+
+  if (root === 'orders') {
+    const data = await fetchSupabaseState();
+    if (method === 'GET' && segments.length === 1) {
+      return data.orders;
+    }
+    if (method === 'POST' && segments.length === 1) {
+      const order = normalizeOrder(options.body || {});
+      if (data.orders.some((item) => item.orderNo === order.orderNo)) {
+        throw new Error(`订单号 ${order.orderNo} 已存在`);
+      }
+      data.orders.unshift(order);
+      await saveSupabaseState(data);
+      return order;
+    }
+    if (segments.length === 2) {
+      const id = decodeURIComponent(segments[1]);
+      const index = data.orders.findIndex((item) => item.id === id);
+      if (index === -1) {
+        throw new Error('订单不存在');
+      }
+      if (method === 'PUT') {
+        const order = normalizeOrder(options.body || {}, data.orders[index]);
+        const duplicate = data.orders.some(
+          (item) => item.orderNo === order.orderNo && item.id !== order.id,
+        );
+        if (duplicate) {
+          throw new Error(`订单号 ${order.orderNo} 已存在`);
+        }
+        data.orders[index] = order;
+        await saveSupabaseState(data);
+        return order;
+      }
+      if (method === 'DELETE') {
+        data.orders.splice(index, 1);
+        await saveSupabaseState(data);
+        return null;
+      }
+    }
+  }
+
+  throw new Error('接口不存在');
+}
+
 async function api(path, options = {}) {
+  if (supabaseConfig) {
+    return handleSupabaseApi(path, options);
+  }
   const config = {
     method: options.method || 'GET',
     headers: {
