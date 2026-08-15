@@ -673,7 +673,7 @@ textarea:focus {
 }
 
 .mold-material-image-header {
-  width: 64px;
+  width: 88px;
 }
 
 .mold-no-cell,
@@ -732,7 +732,7 @@ textarea:focus {
 }
 
 .material-images-cell {
-  width: 112px;
+  width: 88px;
   padding: 0 !important;
 }
 
@@ -750,16 +750,28 @@ textarea:focus {
 }
 
 .material-image-actions {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40px 28px;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   gap: 6px;
+}
+
+.image-upload-button,
+.mold-image-button {
+  width: 40px;
+  height: 40px;
 }
 
 .image-delete-button {
   width: 28px;
   height: 28px;
   border-radius: 5px;
+}
+
+.image-delete-button.disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .mold-image-cell {
@@ -770,8 +782,8 @@ textarea:focus {
 .mold-image-button {
   display: inline-grid;
   place-items: center;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   padding: 0;
   border: 1px solid var(--border);
   border-radius: 6px;
