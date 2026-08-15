@@ -540,36 +540,47 @@ async function uploadMoldImage(file) {
     showToast('图片不能超过 3MB', 'error');
     return;
   }
-  const reader = new FileReader();
-  reader.onload = async () => {
-    const moldId = $('#imageInput').dataset.moldId;
-    const materialNo = $('#imageInput').dataset.materialNo;
-    const mold = getMoldById(moldId);
-    if (!mold) return;
-    const items = mold.items.map((item) =>
-      item.materialNo === materialNo
-        ? { ...item, image: reader.result }
-        : item,
-    );
-    try {
-      await api(`api/molds/${encodeURIComponent(mold.id)}`, {
-        method: 'PUT',
-        body: {
-          moldNo: mold.moldNo,
-          supplierId: mold.supplierId,
-          status: mold.status,
-          remark: mold.remark,
-          items,
-        },
-      });
-      await loadState();
-      renderMolds();
-      showToast('图片已上传');
-    } catch (error) {
-      showToast(error.message, 'error');
-    }
-  };
-  reader.readAsDataURL(file);
+  const moldId = $('#imageInput').dataset.moldId;
+  const materialNo = $('#imageInput').dataset.materialNo;
+  const mold = getMoldById(moldId);
+  if (!mold) {
+    showToast('没有找到对应模具，请刷新后重试', 'error');
+    return;
+  }
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = async () => {
+      const items = mold.items.map((item) =>
+        item.materialNo === materialNo
+          ? { ...item, image: reader.result }
+          : item,
+      );
+      try {
+        await api(`api/molds/${encodeURIComponent(mold.id)}`, {
+          method: 'PUT',
+          body: {
+            moldNo: mold.moldNo,
+            supplierId: mold.supplierId,
+            status: mold.status,
+            remark: mold.remark,
+            items,
+          },
+        });
+        await loadState();
+        renderMolds();
+        showToast('图片已上传');
+        resolve();
+      } catch (error) {
+        showToast(error.message, 'error');
+        reject(error);
+      }
+    };
+    reader.onerror = () => {
+      showToast('图片读取失败', 'error');
+      reject(new Error('图片读取失败'));
+    };
+    reader.readAsDataURL(file);
+  });
 }
 
 async function loadState() {
@@ -2162,9 +2173,15 @@ function bindEvents() {
     if (file) importFile(file);
     event.target.value = '';
   });
-  $('#imageInput').addEventListener('change', (event) => {
+  $('#imageInput').addEventListener('change', async (event) => {
     const file = event.target.files[0];
-    if (file) uploadMoldImage(file);
+    if (file) {
+      try {
+        await uploadMoldImage(file);
+      } catch {
+        // uploadMoldImage already shows the specific error.
+      }
+    }
     event.target.value = '';
     delete $('#imageInput').dataset.moldId;
     delete $('#imageInput').dataset.materialNo;
