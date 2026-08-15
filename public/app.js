@@ -703,29 +703,23 @@ function renderMolds() {
               <div class="material-detail-code"><strong>${escapeHtml(item.materialNo)}</strong></div>
               <div class="material-detail-name">${highlightMaterialName(item.materialName) || '<span class="empty-cell">-</span>'}</div>
               <div class="material-detail-cavity">${escapeHtml(item.cavities)} 出</div>
-            </div>
-          `,
-        )
-        .join('');
-      const materialImages = items
-        .map(
-          (item) => `
-            <div class="material-image-line">
-              <div class="material-image-actions">
-                ${
-                  item.image
-                    ? `<button class="mold-image-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" aria-label="查看或替换图片"><img class="mold-thumb" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.materialNo)} 图片" /></button>`
-                    : `<button class="icon-button image-upload-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" title="上传图片" aria-label="上传图片"><i data-lucide="image-plus"></i></button>`
-                }
-                <button class="icon-button danger image-delete-button ${
-                  item.image ? '' : 'disabled'
-                }" ${
-                  item.image
-                    ? `data-delete-item-image-mold="${escapeAttr(mold.id)}" data-delete-item-image-no="${escapeAttr(item.materialNo)}" aria-label="删除图片"`
-                    : 'disabled title="暂无图片" aria-label="暂无图片"'
-                }>
-                  <i data-lucide="trash-2"></i>
-                </button>
+              <div class="material-detail-image">
+                <div class="material-image-actions">
+                  ${
+                    item.image
+                      ? `<button class="mold-image-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" aria-label="查看图片"><img class="mold-thumb" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.materialNo)} 图片" /></button>`
+                      : `<button class="icon-button image-upload-button" data-item-image-mold="${escapeAttr(mold.id)}" data-item-image-no="${escapeAttr(item.materialNo)}" title="上传图片" aria-label="上传图片"><i data-lucide="image-plus"></i></button>`
+                  }
+                  <button class="icon-button danger image-delete-button ${
+                    item.image ? '' : 'disabled'
+                  }" ${
+                    item.image
+                      ? `data-delete-item-image-mold="${escapeAttr(mold.id)}" data-delete-item-image-no="${escapeAttr(item.materialNo)}" aria-label="删除图片"`
+                      : 'disabled title="暂无图片" aria-label="暂无图片"'
+                  }>
+                    <i data-lucide="trash-2"></i>
+                  </button>
+                </div>
               </div>
             </div>
           `,
@@ -736,9 +730,8 @@ function renderMolds() {
           <td class="mold-no-cell"><strong>${escapeHtml(mold.moldNo)}</strong></td>
           <td class="mold-supplier-cell">${escapeHtml(supplierName(mold.supplierId))}</td>
           <td><span class="status-badge ${statusClass(mold.status)}">${escapeHtml(mold.status)}</span></td>
-          <td colspan="3" class="material-detail-cell">${materialDetail}</td>
+          <td colspan="4" class="material-detail-cell">${materialDetail}</td>
           <td>${escapeHtml(mold.remark) || '<span class="empty-cell">-</span>'}</td>
-          <td class="material-images-cell">${materialImages}</td>
           <td class="actions-col">
             <div class="cell-actions">
               <button class="icon-button" data-edit-mold="${escapeAttr(mold.id)}" aria-label="编辑">
